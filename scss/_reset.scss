@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,46 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     box-sizing: border-box;
+    font-family: $font-primary;
+    box-sizing: border-box;
+    line-height: 1;
+}
+// all code font-size reset-start
+a,button,ul,ol,li,p{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1.6rem;
+}
+// all code font-size reset-end
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
