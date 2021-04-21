@@ -1,0 +1,22 @@
+// logo
+.logo{
+    font-size: 3.7rem;
+    font-family: $font-secondry;
+    letter-spacing: 0.2rem;
+    -webkit-text-stroke-width: 0.01rem;
+    -moz-text-stroke-width: 0.01rem;
+    -ms-text-stroke-width: 0.01rem;
+    -o-text-stroke-width: 0.01rem;
+    -webkit-text-stroke-color: #0a1a67;
+    -moz-text-stroke-color: #0a1a67;
+    -ms-text-stroke-color: #0a1a67;
+    -o-text-stroke-color: #0a1a67;
+    color: transparent;
+    line-height: 4rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.logo-circle{
+    color: $fourth;
+}
+// logo

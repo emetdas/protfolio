@@ -1,9 +1,20 @@
-$primary:rgb(142, 163, 255);
-$secondry:rgb(141, 148, 252);
-$black:rgb(63, 63, 63);
+$primary: rgb(142, 163, 255);
+$secondry: rgb(141, 148, 252);
+$third: #3e54cf;
+$fourth: #5957e6;
+$black: rgb(9, 2, 34);
+$gradient-1: #4776e6; 
+$gradient-1: -webkit-linear-gradient(
+  to right,
+  #8e54e9,
+  #4776e6
+);
+$gradient-1: linear-gradient(
+  to right,
+  #8e54e9,
+  #4776e6
+);
+
 $font-primary: 'Ubuntu', sans-serif;
-
-
-
-
-
+$font-secondry: 'Lobster', cursive;
+$font-third: 'Karantina', cursive;

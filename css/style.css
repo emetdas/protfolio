@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
-* {
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&family=Lobster&family=Ubuntu:wght@400;500;700&display=swap");
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: border-box; }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
 body {
-  box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  box-sizing: border-box;
-  line-height: 1;
-  color: #3f3f3f; }
+  line-height: 1.4;
+  color: #090222; }
 
 a, button, ul, ol, li, p {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #090222; }
 
 h1 {
   font-size: 5rem; }
@@ -39,7 +40,8 @@ h6 {
 ul, ol, li, a, button {
   border: none;
   outline: none;
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none; }
 
 blockquote, q {
   quotes: none; }
@@ -52,3 +54,23 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.logo {
+  font-size: 3.7rem;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.2rem;
+  -webkit-text-stroke-width: 0.01rem;
+  -moz-text-stroke-width: 0.01rem;
+  -ms-text-stroke-width: 0.01rem;
+  -o-text-stroke-width: 0.01rem;
+  -webkit-text-stroke-color: #0a1a67;
+  -moz-text-stroke-color: #0a1a67;
+  -ms-text-stroke-color: #0a1a67;
+  -o-text-stroke-color: #0a1a67;
+  color: transparent;
+  line-height: 4rem;
+  font-weight: bolder;
+  text-transform: capitalize; }
+
+.logo-circle {
+  color: #5957e6; }
