@@ -12,7 +12,8 @@ body {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
-  line-height: 1; }
+  line-height: 1;
+  color: #3f3f3f; }
 
 a, button, ul, ol, li, p {
   font-size: 1.6rem; }
@@ -34,6 +35,11 @@ h5 {
 
 h6 {
   font-size: 1.6rem; }
+
+ul, ol, li, a, button {
+  border: none;
+  outline: none;
+  list-style-type: none; }
 
 blockquote, q {
   quotes: none; }

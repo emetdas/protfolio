@@ -13,6 +13,7 @@ body{
     font-family: $font-primary;
     box-sizing: border-box;
     line-height: 1;
+    color: $black;
 }
 // all code font-size reset-start
 a,button,ul,ol,li,p{
@@ -37,6 +38,12 @@ h6{
     font-size: 1.6rem;
 }
 // all code font-size reset-end
+ul,ol,li,a,button{
+    border: none;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
 blockquote, q {
 	quotes: none;
 }
