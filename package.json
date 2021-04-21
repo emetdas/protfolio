@@ -1,0 +1,22 @@
+{
+  "name": "protfolio",
+  "version": "1.0.0",
+  "description": "This is my Protfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emetdas/protfolio.git"
+  },
+  "author": "Emet Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emetdas/protfolio/issues"
+  },
+  "homepage": "https://github.com/emetdas/protfolio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
