@@ -1,0 +1,42 @@
+.container{
+    max-width: $container;
+    margin: $m-auto;
+    width: calc(100% - 2rem);
+    padding: 0 1rem;
+}
+.img-fit{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    -webkit-aspect-ratio: 1/1;
+    -moz-aspect-ratio: 1/1;
+    -o-aspect-ratio: 1/1;
+    -ms-aspect-ratio: 1/1;
+}
+.grid{
+    display: grid;
+}
+.grid-auto-fit-250{
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    grid-column-gap: 1rem;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.justify-content-sb{
+    justify-content: space-between;
+}
