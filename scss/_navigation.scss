@@ -1,7 +1,7 @@
 // logo-start
 .logo{
     font-size: 3.7rem;
-    font-family: $font-secondry;
+    font-family: $font-fourth;
     letter-spacing: 0.2rem;
     -webkit-text-stroke-width: 0.01rem;
     -moz-text-stroke-width: 0.01rem;
@@ -20,7 +20,16 @@
     color: $fourth;
 }
 // logo-end
-
+header{
+    box-shadow: 0.1rem 0 0.3rem $greysh;
+}
+nav{
+    height: $nav-height;
+}
+.manue li{
+    display: inline-block;
+    padding: 0 1rem;
+}
 
 
 

@@ -3,7 +3,10 @@ $secondry: rgb(141, 148, 252);
 $third: #3e54cf;
 $fourth: #5957e6;
 $black: rgb(9, 2, 34);
+$greysh: rgb(216, 216, 216);
+$white:rgb(255, 255, 255);
 $gradient-1: #4776e6; 
+$nav-height: 6rem;
 $gradient-1: -webkit-linear-gradient(
   to right,
   #8e54e9,
@@ -17,5 +20,6 @@ $gradient-1: linear-gradient(
 $font-primary: 'Ubuntu', sans-serif;
 $font-secondry: 'Lobster', cursive;
 $font-third: 'Karantina', cursive;
+$font-fourth: 'Zen Dots', cursive;
 $container:112rem;
 $m-auto:0 auto;
