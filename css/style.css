@@ -86,11 +86,24 @@ nav {
   display: inline-block;
   padding: 0 1rem; }
 
+section {
+  padding: 1rem 0 !important; }
+
 .container {
   max-width: 112rem;
   margin: 0 auto;
   width: calc(100% - 2rem);
   padding: 0 1rem; }
+
+.p-1 {
+  padding: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.text-justify {
+  word-break: break-all;
+  text-align: justify; }
 
 .font-secondry {
   font-family: "Lobster", cursive; }
@@ -111,6 +124,9 @@ nav {
 
 .btn.btn-primary a {
   color: white; }
+
+.box-shadow-custom {
+  box-shadow: 0 0 0.2rem #d8d8d8; }
 
 .img-fit {
   width: 100%;
@@ -149,6 +165,24 @@ nav {
 .justify-content-sb {
   justify-content: space-between; }
 
+.home {
+  height: 100vh; }
+
 .heading {
   text-rendering: optimizeLegibility;
   font-family: "Zen Dots", cursive; }
+
+.scroll-fature {
+  cursor: pointer;
+  position: absolute;
+  bottom: 3rem;
+  color: #fcfcfc;
+  padding: 1rem;
+  background-color: royalblue; }
+
+@media screen and (max-width: 1140px) {
+  .home {
+    height: 56rem; } }
+
+.feature-header {
+  font-size: 2rem; }

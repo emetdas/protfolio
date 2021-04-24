@@ -1,8 +1,21 @@
+section{
+    padding: 1rem 0 !important;
+}
 .container{
     max-width: $container;
     margin: $m-auto;
     width: calc(100% - 2rem);
     padding: 0 1rem;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.text-justify{
+    word-break: break-all;
+    text-align: justify;
 }
 .font-secondry{
     font-family: $font-secondry;
@@ -24,6 +37,12 @@
 .btn.btn-primary a{
     color: $white;
 }
+
+// box-shadow
+.box-shadow-custom{
+    box-shadow: 0 0 0.2rem $greysh;
+}
+// box-shadow
 .img-fit{
     width: 100%;
     height: 100%;
