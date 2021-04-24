@@ -98,6 +98,12 @@ nav {
 .heading {
   color: #8d94fc; }
 
+.btn {
+  display: inline-block;
+  background: #8ea3ff;
+  color: white;
+  padding: 0.6rem 1rem; }
+
 .btn.btn-primary {
   background: #8ea3ff;
   color: white;
@@ -142,9 +148,6 @@ nav {
 
 .justify-content-sb {
   justify-content: space-between; }
-
-.home {
-  height: 100vh; }
 
 .heading {
   text-rendering: optimizeLegibility;

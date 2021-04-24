@@ -10,6 +10,12 @@
 .heading{
     color: $secondry;
 }
+.btn{
+    display: inline-block;
+    background: $primary;
+    color: $white;
+    padding: 0.6rem 1rem;
+}
 .btn.btn-primary{
     background: $primary;
     color: $white;
