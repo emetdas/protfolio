@@ -20,6 +20,94 @@
     color: $fourth;
 }
 // logo-end
+// mobile-manue-start
+.mobile-manue{
+    width: 3rem;
+    height: 0.4rem;
+    background: $black;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+}
+.mobile-manue::after,
+.mobile-manue::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: $black;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.mobile-manue::before{
+    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
+    -moz-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    -o-transform: translateY(-1rem);
+}
+.mobile-manue.active::before{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.mobile-manue::after{
+    transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    -o-transform: translateY(1rem);
+}
+.mobile-manue.active{
+    background: transparent;
+}
+.mobile-manue.active::after{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+@media (max-width:764px){
+    .mobile-manue{
+        opacity: 1;
+        visibility: visible;
+    }
+    .manue{
+        position: absolute;
+        top: $nav-height;
+        height: calc(100vh - #{$nav-height};
+        z-index: 10;
+        background: $white;
+        width: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+    .manue li{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .mobile-manue.active + .manue{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+// mobile-manue-end
 header{
     box-shadow: 0.1rem 0 0.3rem $greysh;
 }
