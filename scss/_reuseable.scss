@@ -58,7 +58,7 @@ section{
 }
 .grid-auto-fit-250{
     grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
-    grid-column-gap: 1rem;
+    gap: 1rem;
 }
 .d-flex{
     display: flex;
