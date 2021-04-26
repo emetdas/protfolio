@@ -57,6 +57,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+i.fa-trophy {
+  color: #f0db4f; }
+
+@keyframes sticky {
+  0% {
+    transform: translateY(-6rem);
+    -webkit-transform: translateY(-6rem);
+    -moz-transform: translateY(-6rem);
+    -ms-transform: translateY(-6rem);
+    -o-transform: translateY(-6rem); }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); } }
+
 .logo {
   font-size: 3.7rem;
   font-family: "Zen Dots", cursive;
@@ -129,6 +146,15 @@ table {
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg); }
 
+header.sticky {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 20000;
+  animation: sticky 0.3s ease-in-out backwards;
+  -webkit-animation: sticky 0.3s ease-in-out backwards; }
+
 @media (max-width: 764px) {
   .logo {
     font-size: 2.5rem; }
@@ -172,9 +198,6 @@ nav {
 .manue li {
   display: inline-block;
   padding: 0 1rem; }
-
-section {
-  padding: 1rem 0 !important; }
 
 .container {
   max-width: 112rem;
@@ -271,5 +294,14 @@ section {
   .home {
     height: 56rem; } }
 
+#feature {
+  padding: 2rem 0; }
+
 .feature-header {
   font-size: 2rem; }
+
+.feature-item {
+  text-align: center; }
+
+.feature-item p {
+  text-align: justify; }

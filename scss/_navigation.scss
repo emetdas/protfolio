@@ -73,6 +73,16 @@
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
 }
+header.sticky{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: $white;
+    z-index: 20000;
+    animation: sticky 0.3s ease-in-out backwards;
+    -webkit-animation: sticky 0.3s ease-in-out backwards;
+}
+
 @media (max-width:764px){
     .logo{
         font-size: 2.5rem;

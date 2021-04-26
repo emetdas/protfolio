@@ -1,0 +1,11 @@
+@keyframes sticky{
+    0%{ transform: translateY(-$nav-height); -webkit-transform: translateY(-$nav-height); -moz-transform: translateY(-$nav-height); -ms-transform: translateY(-$nav-height); -o-transform: translateY(-$nav-height);
+}
+    100%{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+}
