@@ -1,7 +1,12 @@
 let navIcon = document.querySelector('.mobile-manue');
-let homeSection = document.querySelector('.home');
+let homeSection = document.querySelector('#home');
 let header = document.querySelector('.header');
 let nav = document.querySelector('nav');
+var navheight = nav.getBoundingClientRect().height;
+
+var sectionAll = document.querySelectorAll('section');
+var AllNavitem = document.querySelectorAll('.manue li');
+console.log(AllNavitem);
 // mobile naviation-start
 navIcon.addEventListener('click',()=>{
     navIcon.classList.toggle('active');
@@ -21,11 +26,28 @@ let  observer = (entris)=>{
 const Headerobserve = new IntersectionObserver(observer,{
     root:null,
     threshold:0,
-    rootMargin:`-${100}px`
+    rootMargin:`-${navheight}px`
 });
 Headerobserve.observe(homeSection);
 // sticky navigation-end
-
+// nav Item hilight color-start
+window.addEventListener('scroll',()=>{
+    let currunt = '';
+    sectionAll.forEach(section =>{
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+            currunt = section.getAttribute('id');
+        }
+    });
+    AllNavitem.forEach(li =>{
+        li.classList.remove('active');
+        if (li.classList.contains(currunt)) {
+            li.classList.add('active');
+        }
+    });
+});
+// nav Item hilight color-end
 
 
 

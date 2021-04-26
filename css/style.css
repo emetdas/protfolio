@@ -152,8 +152,18 @@ header.sticky {
   width: 100%;
   background: white;
   z-index: 20000;
-  animation: sticky 0.3s ease-in-out backwards;
-  -webkit-animation: sticky 0.3s ease-in-out backwards; }
+  animation: sticky 0.4s ease-in-out backwards;
+  -webkit-animation: sticky 0.4s ease-in-out backwards; }
+
+.manue .active a {
+  background: #8ea3ff;
+  color: white;
+  padding: 0.6rem 1rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
 
 @media (max-width: 764px) {
   .logo {
@@ -275,7 +285,7 @@ nav {
 .justify-content-sb {
   justify-content: space-between; }
 
-.home {
+#home {
   height: 100vh; }
 
 .heading {
