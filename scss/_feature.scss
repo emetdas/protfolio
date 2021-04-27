@@ -7,6 +7,25 @@
 .feature-item{
     text-align: center;
 }
+.count{
+    position: relative;
+}
+.count::before{
+    content: attr(data-count);
+    font-size: 3rem;
+    background: rgb(235, 235, 235);
+    z-index: -1;
+    @include after-before(2rem,-5.5rem);
+    @include radius-50(5rem,5rem);
+    text-align: center;
+    line-height: 5rem;
+    font-weight: bolder;
+    font-family: $font-fourth;
+    color: $primary;
+}
+.feature-item *{
+    padding: 0.5rem 0;
+}
 .feature-item p{
     text-align: justify;
 }

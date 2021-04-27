@@ -1,0 +1,14 @@
+@mixin  radius-50($width,$height){
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+@mixin after-before($left,$top){
+    position: absolute;
+    top:$top;
+    left: $left;
+}
