@@ -314,7 +314,8 @@ nav {
     height: 56rem; } }
 
 #feature {
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  grid-row-gap: 3rem; }
 
 .feature-header {
   font-size: 2rem; }
@@ -328,7 +329,7 @@ nav {
 .count::before {
   content: attr(data-count);
   font-size: 3rem;
-  background: #f3f3f3;
+  background: #ebebeb;
   border: 0.1rem solid #d8d8d8;
   z-index: -1;
   position: absolute;

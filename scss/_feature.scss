@@ -1,5 +1,6 @@
 #feature{
     padding: 2rem 0;
+    grid-row-gap: 3rem;
 }
 .feature-header{
     font-size: 2rem;
@@ -13,7 +14,7 @@
 .count::before{
     content: attr(data-count);
     font-size: 3rem;
-    background: rgb(243, 243, 243);
+    background: rgb(235, 235, 235);
     border: 0.1rem solid $greysh;
     z-index: -1;
     @include after-before(2rem,-5.5rem);
@@ -24,6 +25,7 @@
     font-family: $font-fourth;
     color: $primary;
 }
+
 .feature-item *{
     padding: 0.5rem 0;
 }

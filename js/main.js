@@ -48,6 +48,11 @@ window.addEventListener('scroll',()=>{
     });
 });
 // nav Item hilight color-end
+AllNavitem.forEach((e)=>{
+    e.addEventListener('click',()=>{
+        navIcon.classList.remove('active');
+    });
+})
 
 
 
