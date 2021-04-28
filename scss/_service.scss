@@ -1,0 +1,12 @@
+#service{
+    padding: 3rem 0;
+    gap: 3rem;
+}
+.service-item{
+    background: $white;
+    font-family: $font-sixth;
+    & img{
+        width: 80%;
+        height: 80%;
+    }
+}

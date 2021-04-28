@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 #home{
-    height: 100vh;
+    height: 61rem;
 }
 .heading{
    text-rendering: optimizeLegibility;
-   font-family: $font-fourth;
+   font-family: $font-sixth;
 }
 .scroll-fature{
     cursor: pointer;
@@ -13,4 +13,8 @@
     color: #fcfcfc;
     padding: 1rem;
     background-color: royalblue;
+}
+.btn-action-home{
+    margin-top: 2rem;
+    margin-right: 1rem;
 }

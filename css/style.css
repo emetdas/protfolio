@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&family=Lobster&family=Ubuntu:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 *,
 *::after,
@@ -83,14 +84,17 @@ i.fa-trophy {
     -ms-transform: translateY(0);
     -o-transform: translateY(0); } }
 
+header {
+  z-index: 1000; }
+
 .logo {
   font-size: 3.7rem;
-  font-family: "Zen Dots", cursive;
+  font-family: "Dosis", sans-serif;
   letter-spacing: 0.2rem;
-  -webkit-text-stroke-width: 0.01rem;
-  -moz-text-stroke-width: 0.01rem;
-  -ms-text-stroke-width: 0.01rem;
-  -o-text-stroke-width: 0.01rem;
+  -webkit-text-stroke-width: 0.1rem;
+  -moz-text-stroke-width: 0.1rem;
+  -ms-text-stroke-width: 0.1rem;
+  -o-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: #0a1a67;
   -moz-text-stroke-color: #0a1a67;
   -ms-text-stroke-color: #0a1a67;
@@ -109,7 +113,8 @@ i.fa-trophy {
   background: #090222;
   position: relative;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  cursor: pointer; }
 
 .mobile-manue::after,
 .mobile-manue::before {
@@ -295,11 +300,11 @@ nav {
   justify-content: space-between; }
 
 #home {
-  height: 100vh; }
+  height: 61rem; }
 
 .heading {
   text-rendering: optimizeLegibility;
-  font-family: "Zen Dots", cursive; }
+  font-family: "Dosis", sans-serif; }
 
 .scroll-fature {
   cursor: pointer;
@@ -309,16 +314,28 @@ nav {
   padding: 1rem;
   background-color: royalblue; }
 
+.btn-action-home {
+  margin-top: 2rem;
+  margin-right: 1rem; }
+
 @media screen and (max-width: 1140px) {
-  .home {
+  #home {
     height: 56rem; } }
+
+@media (max-width: 764px) {
+  .btn-action-home {
+    margin-top: 1rem;
+    display: block;
+    max-width: 100%;
+    width: 50%; } }
 
 #feature {
   padding: 2rem 0;
   grid-row-gap: 3rem; }
 
 .feature-header {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-family: "Dosis", sans-serif; }
 
 .feature-item {
   text-align: center; }
@@ -353,3 +370,14 @@ nav {
 
 .feature-item p {
   text-align: justify; }
+
+#service {
+  padding: 3rem 0;
+  gap: 3rem; }
+
+.service-item {
+  background: white;
+  font-family: "Dosis", sans-serif; }
+  .service-item img {
+    width: 80%;
+    height: 80%; }
