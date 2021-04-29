@@ -6,7 +6,8 @@ var navheight = nav.getBoundingClientRect().height;
 
 var sectionAll = document.querySelectorAll('section');
 var AllNavitem = document.querySelectorAll('.manue li');
-console.log(AllNavitem);
+
+let projectFilterlink = document.querySelectorAll('.project-filter-link');
 // mobile naviation-start
 navIcon.addEventListener('click',()=>{
     navIcon.classList.toggle('active');
@@ -54,7 +55,12 @@ window.addEventListener('scroll',()=>{
 });
 // nav Item hilight color-end
 // Project filter-start
-
+projectFilterlink.forEach((e)=>{
+    console.log(e);
+    e.addEventListener('click',()=>{
+       
+    });
+});
 // Project filter-end
 
 
