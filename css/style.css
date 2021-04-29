@@ -71,34 +71,34 @@ i.fa-trophy {
   color: #f0db4f; }
 
 .p-01 {
-  padding: 0.5rem; }
+  padding: 0.5rem !important; }
 
 .p-1 {
-  padding: 1rem; }
+  padding: 1rem !important; }
 
 .p-2 {
-  padding: 2rem; }
+  padding: 2rem !important; }
 
 .p-3 {
-  padding: 3rem; }
+  padding: 3rem !important; }
 
 .px-1 {
-  padding: 1rem 0; }
+  padding: 0 1rem !important; }
 
 .py-1 {
-  padding: 0 1rem; }
+  padding: 1rem 0 !important; }
 
 .px-2 {
-  padding: 2rem 0; }
+  padding: 2rem 0 !important; }
 
 .py-2 {
-  padding: 0 2rem; }
+  padding: 2rem 0 !important; }
 
 .px-3 {
-  padding: 3rem 0; }
+  padding: 0 3rem !important; }
 
 .py-3 {
-  padding: 0 3rem; }
+  padding: 3rem 0 !important; }
 
 @keyframes sticky {
   0% {
@@ -411,3 +411,18 @@ nav {
   .service-item img {
     width: 80%;
     height: 80%; }
+
+.project-section {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem; }
+  .project-section .project-item img {
+    width: 100%; }
+
+.project-filter li {
+  display: inline-block;
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem; }
+  .project-filter li.active {
+    background: #8ea3ff;
+    color: white; }

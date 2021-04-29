@@ -1,0 +1,21 @@
+.project-section{
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 2rem;
+    & .project-item{
+        & img{
+            width: 100%;
+        }
+    }
+}
+.project-filter{
+    & li{
+        display: inline-block;
+        margin: 0 1rem;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        &.active{
+            background: $primary;
+            color: $white;
+        }
+    }
+}
