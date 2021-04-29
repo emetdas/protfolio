@@ -11,6 +11,11 @@ console.log(AllNavitem);
 navIcon.addEventListener('click',()=>{
     navIcon.classList.toggle('active');
 });
+AllNavitem.forEach((e)=>{
+    e.addEventListener('click',()=>{
+        navIcon.classList.remove('active');
+    });
+})
 // mobile naviation-end
 // sticky navigation-start
 let  observer = (entris)=>{
@@ -48,12 +53,6 @@ window.addEventListener('scroll',()=>{
     });
 });
 // nav Item hilight color-end
-AllNavitem.forEach((e)=>{
-    e.addEventListener('click',()=>{
-        navIcon.classList.remove('active');
-    });
-})
-
 
 
 
