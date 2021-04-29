@@ -418,11 +418,34 @@ nav {
   .project-section .project-item img {
     width: 100%; }
 
+.project-item.show {
+  display: block;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  animation: project 0.5s ease-in backwards;
+  -webkit-animation: project 0.5s ease-in backwards; }
+
+.project-item.hide {
+  display: none;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
+
 .project-filter li {
   display: inline-block;
   margin: 0 1rem;
   cursor: pointer;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in; }
   .project-filter li.active {
     background: #8ea3ff;
     color: white; }

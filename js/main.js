@@ -7,7 +7,9 @@ var navheight = nav.getBoundingClientRect().height;
 var sectionAll = document.querySelectorAll('section');
 var AllNavitem = document.querySelectorAll('.manue li');
 
-let projectFilterlink = document.querySelectorAll('.project-filter-link');
+var projectFilter = document.querySelector('.project-filter');
+var projectFilterlink = document.querySelectorAll('.project-filter-link');
+var projectFilterItem = document.querySelectorAll('.project-item');
 // mobile naviation-start
 navIcon.addEventListener('click',()=>{
     navIcon.classList.toggle('active');
@@ -55,10 +57,28 @@ window.addEventListener('scroll',()=>{
 });
 // nav Item hilight color-end
 // Project filter-start
-projectFilterlink.forEach((e)=>{
-    console.log(e);
-    e.addEventListener('click',()=>{
-       
+projectFilter.addEventListener('click',(e)=>{
+    const clicked = e.target.closest(".project-filter-link");
+    if (!clicked) {
+      return;
+    }
+    projectFilterlink.forEach((e)=>{
+        e.classList.remove('active');
+    })
+    if (clicked) {
+    clicked.classList.add('active');
+    }
+    var manueClicked = clicked.getAttribute('data-project');
+    projectFilterItem.forEach((filter)=>{
+        var projectData = filter.getAttribute('data-project');
+        if (projectData === manueClicked || manueClicked === 'all') {
+            filter.classList.remove('hide');
+            filter.classList.add('show');
+        }
+        else{
+            filter.classList.remove('show');
+            filter.classList.add('hide');
+        }
     });
 });
 // Project filter-end

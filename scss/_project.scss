@@ -1,21 +1,46 @@
-.project-section{
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    gap: 2rem;
-    & .project-item{
-        & img{
-            width: 100%;
-        }
+.project-section {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  & .project-item {
+    & img {
+      width: 100%;
     }
+  }
 }
-.project-filter{
-    & li{
-        display: inline-block;
-        margin: 0 1rem;
-        cursor: pointer;
-        padding: 0.5rem 1rem;
-        &.active{
-            background: $primary;
-            color: $white;
-        }
+.project-item {
+    &.show {
+      display: block;
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      animation: project 0.5s ease-in backwards;
+      -webkit-animation: project 0.5s ease-in backwards;
+}
+    &.hide{
+       display: none;
+       transition: all 0.5s ease-in-out;
+       -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+       -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+}
+  }
+.project-filter {
+  & li {
+    display: inline-block;
+    margin: 0 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    &.active{
+      background: $primary;
+      color: $white;
     }
+  }
 }
