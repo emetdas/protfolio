@@ -82,5 +82,12 @@ projectFilter.addEventListener('click',(e)=>{
     });
 });
 // Project filter-end
+// Client Slider-start
+let sliders = document.querySelectorAll('.slider-items');
+let slider = document.querySelector('.slider-items');
 
+sliders.forEach((s,i)=>{
+    s.style.transform = `translateX(${100 * i}%)`;
+});
+// Client Slider-end
 
