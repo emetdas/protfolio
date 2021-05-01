@@ -499,15 +499,19 @@ nav {
 
 .slider-container {
   position: relative;
-  height: 50rem; }
+  height: 25rem;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center; }
 
 .slider-items {
   position: absolute;
-  top: 0;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  transition: transform 1s; }
   .slider-items img {
     width: 10rem;
     height: 10rem;
@@ -530,11 +534,11 @@ nav {
   top: 50%;
   z-index: 10;
   border: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: white;
   font-family: inherit;
   color: #333;
   border-radius: 50%;
   height: 5.5rem;
   width: 5.5rem;
-  font-size: 3.25rem;
+  font-size: 2rem;
   cursor: pointer; }

@@ -85,9 +85,38 @@ projectFilter.addEventListener('click',(e)=>{
 // Client Slider-start
 let sliders = document.querySelectorAll('.slider-items');
 let slider = document.querySelector('.slider-items');
+let btnLeft = document.querySelector('.slider__btn--left');
+let btnRight = document.querySelector('.slider__btn--right');
+let curSlide = 0;
+const maxSlide = sliders.length;
 
-sliders.forEach((s,i)=>{
-    s.style.transform = `translateX(${100 * i}%)`;
-});
+
+const goToSlide = (slide)=>{
+    sliders.forEach((s,i)=>{
+        s.style.transform = `translateX(${100 * (i - slide)}%)`;
+    });
+}
+goToSlide(0);
+const nextSlide = function(){
+    if (curSlide === maxSlide - 1) {
+        curSlide = 0;
+    }
+    else{
+        curSlide++;
+    }
+    goToSlide(curSlide);
+}
+btnRight.addEventListener('click',nextSlide);
+const prevSlide = function(){
+    if (curSlide === 0) {
+        curSlide = maxSlide -1;
+    }
+    else{
+        curSlide--;
+    }
+    goToSlide(curSlide);
+}
+btnLeft.addEventListener('click',prevSlide);
+
 // Client Slider-end
 
