@@ -496,3 +496,10 @@ nav {
   .project-filter li.active {
     background: #8ea3ff;
     color: white; }
+
+.slider-items {
+  width: 300px;
+  display: flex; }
+  .slider-items img {
+    width: 10rem;
+    height: 10rem; }

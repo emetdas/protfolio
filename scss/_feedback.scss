@@ -1,0 +1,8 @@
+.slider-items{
+    width: 300px;
+    display: flex;
+    & img{
+        width: 10rem;
+        height: 10rem;
+    }
+}
