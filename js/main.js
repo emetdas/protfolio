@@ -87,6 +87,10 @@ let sliders = document.querySelectorAll('.slider-items');
 let slider = document.querySelector('.slider-items');
 let btnLeft = document.querySelector('.slider__btn--left');
 let btnRight = document.querySelector('.slider__btn--right');
+let sliderControler = document.querySelector('.slider-contorler');
+
+
+
 let curSlide = 0;
 const maxSlide = sliders.length;
 
