@@ -89,12 +89,8 @@ let btnLeft = document.querySelector('.slider__btn--left');
 let btnRight = document.querySelector('.slider__btn--right');
 let sliderControler = document.querySelector('.slider-contorler');
 
-
-
 let curSlide = 0;
 const maxSlide = sliders.length;
-
-
 const goToSlide = (slide)=>{
     sliders.forEach((s,i)=>{
         s.style.transform = `translateX(${100 * (i - slide)}%)`;
