@@ -89,6 +89,12 @@ let btnLeft = document.querySelector('.slider__btn--left');
 let btnRight = document.querySelector('.slider__btn--right');
 let sliderControler = document.querySelector('.slider-contorler');
 
+let creatDots = function(){
+    sliders.forEach((_,i)=>{
+        sliderControler.insertAdjacentHTML("beforeend",`<span class="controler-dot" data-dot="${i}"></span>`);
+    });
+}
+creatDots();
 let curSlide = 0;
 const maxSlide = sliders.length;
 const goToSlide = (slide)=>{
@@ -117,8 +123,8 @@ const prevSlide = function(){
     goToSlide(curSlide);
 }
 btnLeft.addEventListener('click',prevSlide);
-document.addEventListener('keydown',(e){
-    if (e.key === 'ArrowLeft') {
+document.addEventListener('keydown',(e)=>{
+    if (e.key === 'ArrowLeft'){
         prevSlide();
     }
     e.key === 'ArrowRight' && nextSlide();
