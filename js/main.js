@@ -95,6 +95,12 @@ let creatDots = function(){
     });
 }
 creatDots();
+const acivetDot = function(slide){
+    document.querySelectorAll('.controler-dot').forEach(dot => dot.classList.remove('active'));
+    document.querySelector(`.controler-dot[data-dot="${slide}"]`).classList.add('active');
+}
+
+acivetDot(0);
 let curSlide = 0;
 const maxSlide = sliders.length;
 const goToSlide = (slide)=>{
@@ -111,6 +117,7 @@ const nextSlide = function(){
         curSlide++;
     }
     goToSlide(curSlide);
+    acivetDot(curSlide);
 }
 btnRight.addEventListener('click',nextSlide);
 const prevSlide = function(){
@@ -121,6 +128,7 @@ const prevSlide = function(){
         curSlide--;
     }
     goToSlide(curSlide);
+    acivetDot(curSlide);
 }
 btnLeft.addEventListener('click',prevSlide);
 document.addEventListener('keydown',(e)=>{
@@ -129,5 +137,13 @@ document.addEventListener('keydown',(e)=>{
     }
     e.key === 'ArrowRight' && nextSlide();
 });
+
+sliderControler.addEventListener('click',(e)=>{
+    if (e.target.classList.contains('controler-dot')) {
+        const {dot} = e.target.dataset;
+        goToSlide(dot);
+        acivetDot(dot);
+    }
+})
 // Client Slider-end
 
