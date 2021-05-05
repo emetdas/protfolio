@@ -117,6 +117,11 @@ const prevSlide = function(){
     goToSlide(curSlide);
 }
 btnLeft.addEventListener('click',prevSlide);
-
+document.addEventListener('keydown',(e){
+    if (e.key === 'ArrowLeft') {
+        prevSlide();
+    }
+    e.key === 'ArrowRight' && nextSlide();
+});
 // Client Slider-end
 
