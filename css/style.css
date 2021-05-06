@@ -511,7 +511,11 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 1s; }
+  transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  -ms-transition: transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out; }
   .slider-items img {
     width: 10rem;
     height: 10rem;
@@ -527,7 +531,11 @@ nav {
 
 .slider__btn--left {
   left: 6%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
 
 .slider__btn {
   position: absolute;
@@ -566,12 +574,12 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  transition: all 0.5s ease-in;
+  transition: width 0.5s ease-in;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in; }
+  -webkit-transition: width 0.5s ease-in;
+  -moz-transition: width 0.5s ease-in;
+  -ms-transition: width 0.5s ease-in;
+  -o-transition: width 0.5s ease-in; }
   .controler-dot.active {
     width: 1.8rem;
     background: #7173f3;
@@ -580,3 +588,15 @@ nav {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem; }
+
+#about {
+  padding: 2rem 0; }
+
+.about-img-social .my-profile {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }

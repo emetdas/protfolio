@@ -1,0 +1,8 @@
+#about{
+    padding: 2rem 0;
+}
+.about-img-social{
+    & .my-profile{
+        @include radius-50(10rem,10rem);
+    }
+}
