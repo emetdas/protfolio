@@ -2,7 +2,8 @@
     padding: 2rem 0;
 }
 .about-social-component{
-    @include box-shadow(0,0,0.5rem,$greysh);
+    padding: 2rem;
+    @include box-shadow(0,0,0.3rem,$greysh);
 }
 .about-img-social{
     & .my-profile{

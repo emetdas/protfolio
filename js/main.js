@@ -145,5 +145,6 @@ sliderControler.addEventListener('click',(e)=>{
         acivetDot(dot);
     }
 })
+setInterval(nextSlide,8000);
 // Client Slider-end
 
