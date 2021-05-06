@@ -1,6 +1,9 @@
 #about{
     padding: 2rem 0;
 }
+.about-social-component{
+    @include box-shadow(0,0,0.5rem,$greysh);
+}
 .about-img-social{
     & .my-profile{
         @include radius-50(10rem,10rem);

@@ -12,3 +12,6 @@
     top:$top;
     left: $left;
 }
+@mixin box-shadow($h,$v,$b,$color){
+    box-shadow: $h $v $b $color;
+}

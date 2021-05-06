@@ -592,6 +592,9 @@ nav {
 #about {
   padding: 2rem 0; }
 
+.about-social-component {
+  box-shadow: 0 0 0.5rem #d8d8d8; }
+
 .about-img-social .my-profile {
   width: 10rem;
   height: 10rem;
