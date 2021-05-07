@@ -604,3 +604,24 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%; }
+
+.about-img-social .social-media .fa-linkedin-in {
+  color: #0077b5; }
+
+.about-img-social .social-media .fa-facebook-f {
+  color: #4267B2; }
+
+.about-img-social .social-media .fa-twitter {
+  color: #1DA1F2; }
+
+.about-img-social .social-media .fa-instagram {
+  color: #3f729b; }
+
+.about-img-social .social-media .fa-github {
+  color: #333; }
+
+.about-img-social .social-media .fa-gitlab {
+  color: #FC6D27; }
+
+.about-img-social .social-media .fa-pinterest {
+  color: #E60023; }

@@ -9,4 +9,27 @@
     & .my-profile{
         @include radius-50(10rem,10rem);
     }
+    .social-media {
+        & .fa-linkedin-in{
+            color: $LinkedIn;
+        }
+       & .fa-facebook-f{
+            color: $facebook;
+        }
+        & .fa-twitter{
+            color: $twitter;
+        }
+        & .fa-instagram{
+           color: $instagram;
+        }
+        & .fa-github{
+            color: $github;
+        }
+        & .fa-gitlab{
+            color: $gitlab;
+        }
+        & .fa-pinterest{
+            color: $pintrest;
+        }
+    }     
 }
