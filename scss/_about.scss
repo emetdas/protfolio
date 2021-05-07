@@ -1,35 +1,35 @@
-#about{
-    padding: 2rem 0;
+#about {
+  padding: 2rem 0;
 }
-.about-social-component{
-    padding: 2rem;
-    @include box-shadow(0,0,0.3rem,$greysh);
+.about-social-component {
+  padding: 2rem;
+  @include box-shadow(0, 0, 0.3rem, $greysh);
 }
-.about-img-social{
-    & .my-profile{
-        @include radius-50(10rem,10rem);
+.about-img-social {
+    & .my-profile {
+        @include radius-50(10rem, 10rem);
     }
-    .social-media {
-        & .fa-linkedin-in{
-            color: $LinkedIn;
-        }
-       & .fa-facebook-f{
-            color: $facebook;
-        }
-        & .fa-twitter{
-            color: $twitter;
-        }
-        & .fa-instagram{
-           color: $instagram;
-        }
-        & .fa-github{
-            color: $github;
-        }
-        & .fa-gitlab{
-            color: $gitlab;
-        }
-        & .fa-pinterest{
-            color: $pintrest;
-        }
-    }     
+  .social-media {
+    & .fa-linkedin-in {
+      color: $LinkedIn;
+    }
+    & .fa-facebook-f {
+      color: $facebook;
+    }
+    & .fa-twitter {
+      color: $twitter;
+    }
+    & .fa-instagram {
+      color: $instagram;
+    }
+    & .fa-github {
+      color: $github;
+    }
+    & .fa-gitlab {
+      color: $gitlab;
+    }
+    & .fa-pinterest {
+      color: $pintrest;
+    }
+  }
 }
