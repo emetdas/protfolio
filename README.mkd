@@ -1,6 +1,6 @@
 1: npm install --node-sass -sev-dev
 2: npm file script  add
-"compile:sass":"node-sass scss/style.scss css/style.css -w" 
+  "compile:sass":"node-sass scss/style.scss css/style.css -w" 
 3: npm run compile:sass
 
 4: install live-server
@@ -36,5 +36,7 @@ $css:#2965f1;
 $db:#6C78AF;
 $profile:#5E5C7F;
 $progress-bg:#F1F1F1;`
+
+[impression:--](https://jthemes.net/themes/wp/bolby/)
 
 [Color Best Resourch:--](https://webkul.github.io/coolhue/)
