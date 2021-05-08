@@ -12,6 +12,7 @@
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
+    opacity: 0;
   }
 }
 @keyframes project {
@@ -37,4 +38,30 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
   }
+}
+
+@keyframes scroll{
+    0%{
+      transform: translateY(-3rem);
+      -webkit-transform: translateY(-3rem);
+      -moz-transform: translateY(-3rem);
+      -ms-transform: translateY(-3rem);
+      -o-transform: translateY(-3rem);
+      opacity: 0;
+}
+    50%{
+      transform: translateY(-1rem);
+      -webkit-transform: translateY(-1rem);
+      -moz-transform: translateY(-1rem);
+      -ms-transform: translateY(-1rem);
+      -o-transform: translateY(-1rem);
+      opacity: 1;
+}
+    100%{
+      transform: translateY(1rem);
+      -webkit-transform: translateY(1rem);
+      -moz-transform: translateY(1rem);
+      -ms-transform: translateY(1rem);
+      -o-transform: translateY(1rem);
+}
 }
