@@ -661,6 +661,7 @@ nav {
   background: #5E5C7F; }
 
 .social-media {
+  margin-top: 2rem;
   gap: 1rem;
   display: flex; }
   .social-media i {
@@ -693,6 +694,7 @@ nav {
     color: #27ca73; }
 
 .about-content {
+  gap: 2.3rem;
   background: white;
   position: relative;
   filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.753));
@@ -781,3 +783,14 @@ nav {
 
 .database {
   background: #6C78AF; }
+
+@media (max-width: 768px) {
+  .about-main {
+    flex-direction: column; }
+  .about-content {
+    flex-direction: column; }
+  .skill {
+    margin-top: 2rem; }
+  .skill-item {
+    gap: 3rem;
+    justify-content: start; } }

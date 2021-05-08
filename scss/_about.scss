@@ -16,6 +16,7 @@
     }
 }
 .social-media {
+  margin-top: 2rem;
   gap: 1rem;
   display: flex;
   & i{
@@ -57,6 +58,7 @@
   }
 }
 .about-content{
+  gap: 2.3rem;
   background: $white;
   position: relative;
   filter: drop-shadow(0 0 0.2rem $drop-shadow-bg);
@@ -148,4 +150,20 @@
 }
 .database{
   background: $db;
+}
+
+@media (max-width:$breakpoint-tablet){
+  .about-main{
+    flex-direction: column;
+  }
+  .about-content{
+    flex-direction: column;
+  }
+  .skill{
+    margin-top: 2rem;
+  }
+  .skill-item{
+    gap: 3rem;
+    justify-content: start;
+  }
 }
