@@ -6,9 +6,33 @@
 4: install live-server
   npm install live-server -g
 
-
-
 1. font-one: 'Dosis', sans-serif;
 2. font-two: "Ubuntu", sans-serif;
 3. font-three: 'Rubik', sans-serif;
 4. font-four: 'Mulish', sans-serif;
+
+`$forth: #7173f3;
+$fifth: #2da2e1;
+$black: rgb(9, 2, 34);
+$scroll-bottom: rgb(87, 83, 172);
+$greysh: rgb(216, 216, 216);
+$white:rgb(255, 255, 255);
+$drop-shadow-bg:rgba(216, 216, 216, 0.753);
+$stock-bg:#0a1a67;
+$gradient-1: #4776e6; 
+$yellow:#f0db4f;
+$nav-height: 6rem;
+$facebook:#4267B2;
+$twitter:#1DA1F2;
+$instagram:#3f729b;
+$github:#333;
+$gitlab:#FC6D27;
+$pintrest:#E60023;
+$LinkedIn:#0077b5;
+$fiverr:rgb(39, 202, 115);
+$php:#8993be;
+$js:#f0db4f;
+$css:#2965f1;
+$db:#6C78AF;
+$profile:#5E5C7F;
+$progress-bg:#F1F1F1;`
