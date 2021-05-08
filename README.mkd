@@ -8,11 +8,7 @@
 
 
 
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
-font-family: 'Mulish', sans-serif;
-
-
 1. font-one: 'Dosis', sans-serif;
 2. font-two: "Ubuntu", sans-serif;
 3. font-three: 'Rubik', sans-serif;
+4. font-four: 'Mulish', sans-serif;
