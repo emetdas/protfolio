@@ -660,8 +660,13 @@ nav {
 .about-content {
   background: white;
   position: relative;
-  filter: drop-shadow(0 0 0.2rem #d8d8d8);
-  -webkit-filter: drop-shadow(0 0 0.2rem #d8d8d8); }
+  filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.753));
+  -webkit-filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.575));
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem; }
 
 .about-content::before {
   content: '';
@@ -710,7 +715,6 @@ nav {
 .progess {
   border-radius: 1rem;
   position: absolute;
-  background: rebeccapurple;
   transition: width 0.5s cubic-bezier(0.1, 0.42, 0.85, 1);
   width: 0;
   left: 0;
@@ -728,4 +732,17 @@ nav {
     top: -2rem;
     right: 1rem;
     font-size: 1.6rem;
-    font-weight: bold; }
+    font-weight: 600;
+    color: #090222; }
+
+.css {
+  background: #2965f1; }
+
+.javascript {
+  background: #f0db4f; }
+
+.php {
+  background: #8993be; }
+
+.database {
+  background: #6C78AF; }
