@@ -6,9 +6,6 @@
 4: install live-server
   npm install live-server -g
 
-sampad
-01690229779
-
 
 
 
