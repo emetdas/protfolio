@@ -147,4 +147,10 @@ sliderControler.addEventListener('click',(e)=>{
 })
 setInterval(nextSlide,8000);
 // Client Slider-end
-
+// Skill Progressbar-start
+let progess = document.querySelectorAll('.progess');
+progess.forEach((e)=>{
+    var persent = e.dataset.progress;
+    e.style.width = `${persent}%`;
+});
+// Skill Progressbar-end

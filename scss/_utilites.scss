@@ -10,8 +10,14 @@ i.fa-chart-line{
 i.fa-trophy{
     color: $yellow;
 }
+.gap-1{
+    gap: 1rem;
+}
 .gap-2{
     gap: 2rem;
+}
+.flex-clumn{
+    flex-direction: column;
 }
 .p-01{
     padding: 0.5rem !important;

@@ -70,8 +70,14 @@ i.fa-chart-line {
 i.fa-trophy {
   color: #f0db4f; }
 
+.gap-1 {
+  gap: 1rem; }
+
 .gap-2 {
   gap: 2rem; }
+
+.flex-clumn {
+  flex-direction: column; }
 
 .p-01 {
   padding: 0.5rem !important; }
@@ -619,26 +625,95 @@ nav {
   background: #7173f3;
   background: #5E5C7F; }
 
-.social-media .fa-linkedin-in {
-  color: #0077b5; }
-
-.social-media .fa-facebook-f {
-  color: #4267B2; }
-
-.social-media .fa-twitter {
-  color: #1DA1F2; }
-
-.social-media .fa-instagram {
-  color: #3f729b; }
-
-.social-media .fa-github {
-  color: #333; }
-
-.social-media .fa-gitlab {
-  color: #FC6D27; }
-
-.social-media .fa-pinterest {
-  color: #E60023; }
+.social-media {
+  gap: 1rem;
+  display: flex; }
+  .social-media i {
+    font-size: 2.3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    box-shadow: 0 0 0.1rem #8993be;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; }
+  .social-media .fa-linkedin-in {
+    color: #0077b5; }
+  .social-media .fa-facebook-f {
+    color: #4267B2; }
+  .social-media .fa-twitter {
+    color: #1DA1F2; }
+  .social-media .fa-instagram {
+    color: #3f729b; }
+  .social-media .fa-github {
+    color: #333; }
+  .social-media .fa-gitlab {
+    color: #FC6D27; }
+  .social-media .fa-pinterest {
+    color: #E60023; }
+  .social-media .fa-fonticons-fi {
+    color: #27ca73; }
 
 .about-content {
-  box-shadow: 0 0 0.3rem #d8d8d8; }
+  box-shadow: 0 0 0.3rem #d8d8d8;
+  position: relative; }
+
+.about-content::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.8rem;
+  border-top: 1.4rem solid transparent;
+  border-bottom: 1.4rem solid transparent;
+  border-left: 1.4rem solid transparent;
+  border-right: 1.4rem solid #d8d8d8;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%); }
+
+.skill .fa-php {
+  color: #8993be; }
+
+.skill .fa-js-square {
+  color: #f0db4f; }
+
+.skill .fa-css3-alt {
+  color: #2965f1; }
+
+.skill .fa-database {
+  color: #6C78AF; }
+
+.skill-item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem; }
+
+.progess-skill {
+  width: 30rem;
+  background: #F1F1F1;
+  height: 0.7rem;
+  position: relative;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem; }
+
+.progess {
+  position: absolute;
+  background: rebeccapurple;
+  animation: progress 0.5s ease-in-out backwards;
+  height: 100%;
+  -webkit-animation: progress 0.5s ease-in-out backwards; }
+  .progess span {
+    position: absolute;
+    top: -2rem;
+    right: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold; }

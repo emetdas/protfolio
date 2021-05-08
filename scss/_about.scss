@@ -16,6 +16,21 @@
     }
 }
 .social-media {
+  gap: 1rem;
+  display: flex;
+  & i{
+    font-size: 2.3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    box-shadow: 0 0 0.1rem $php;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
   & .fa-linkedin-in {
     color: $LinkedIn;
   }
@@ -37,7 +52,72 @@
   & .fa-pinterest {
     color: $pintrest;
   }
+  & .fa-fonticons-fi{
+    color: $fiverr;
+  }
 }
 .about-content{
   @include box-shadow(0, 0, 0.3rem, $greysh);
+  position: relative;
+}
+.about-content::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.8rem;
+  border-top: 1.4rem solid transparent;
+  border-bottom: 1.4rem solid transparent;
+  border-left: 1.4rem solid transparent;
+  border-right: 1.4rem solid $greysh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.skill{
+  & .fa-php{
+    color: $php;
+  }
+  & .fa-js-square{
+    color: $js;
+  }
+  & .fa-css3-alt{
+    color: $css;
+  }
+  & .fa-database{
+    color: $db;
+  }
+}
+.skill-item{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap:0.3rem;
+}
+.progess-skill{
+  width: 30rem;
+  background: #F1F1F1;
+  height: 0.7rem;
+  // overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.progess{
+  position: absolute;
+  background: rebeccapurple;
+  animation: progress 0.5s ease-in-out backwards;
+  height: 100%;
+  -webkit-animation: progress 0.5s ease-in-out backwards;
+  & span{
+    position: absolute;
+    top: -2rem;
+    right: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
 }
