@@ -1,35 +1,40 @@
-@keyframes sticky{
-    0%{ transform: translateY(-$nav-height); -webkit-transform: translateY(-$nav-height); -moz-transform: translateY(-$nav-height); -ms-transform: translateY(-$nav-height); -o-transform: translateY(-$nav-height);
+@keyframes sticky {
+  0% {
+    transform: translateY(-$nav-height);
+    -webkit-transform: translateY(-$nav-height);
+    -moz-transform: translateY(-$nav-height);
+    -ms-transform: translateY(-$nav-height);
+    -o-transform: translateY(-$nav-height);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
 }
-    100%{
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-}
-}
-@keyframes project{
-    0%{
-        opacity: 0.8;
-        transform-origin: center;
-        transform: translateX(1rem);
-        -webkit-transform: translateX(1rem);
-        -moz-transform: translateX(1rem);
-        -ms-transform: translateX(1rem);
-        -o-transform: translateX(1rem);
-        transition: all 0.5s ease-in;
-        -webkit-transition: all 0.5s ease-in;
-        -moz-transition: all 0.5s ease-in;
-        -ms-transition: all 0.5s ease-in;
-        -o-transition: all 0.5s ease-in;
-}
-    100%{
-        opacity: 0;
-        transform: translateX(0);
-        -webkit-transform: translateX(0);
-        -moz-transform: translateX(0);
-        -ms-transform: translateX(0);
-        -o-transform: translateX(0);
-}
+@keyframes project {
+  0% {
+    opacity: 0.8;
+    transform-origin: center;
+    transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
 }

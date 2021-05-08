@@ -1,12 +1,13 @@
 $primary: rgb(142, 163, 255);
 $secondry: rgb(141, 148, 252);
-$third: #3e54cf;
-$fourth: #5957e6;
+$third: #5957e6;
 $fifth: #7173f3;
 $sixeth: #2da2e1;
 $black: rgb(9, 2, 34);
 $greysh: rgb(216, 216, 216);
 $white:rgb(255, 255, 255);
+$drop-shadow-bg:rgba(216, 216, 216, 0.753);
+$stock-bg:#0a1a67;
 $gradient-1: #4776e6; 
 $yellow:#f0db4f;
 $nav-height: 6rem;
@@ -22,16 +23,8 @@ $php:#8993be;
 $js:#f0db4f;
 $css:#2965f1;
 $db:#6C78AF;
-$gradient-2: -webkit-linear-gradient(
-  to right,
-  #8e54e9,
-  #4776e6
-);
-$gradient-3: linear-gradient(
-  to right,
-  #8e54e9,
-  #4776e6
-);
+$profile:#5E5C7F;
+$progress-bg:#F1F1F1;
 $font-primary: 'Ubuntu', sans-serif;
 $font-secondry: 'Dosis', sans-serif;
 $font-third: 'Rubik', sans-serif;

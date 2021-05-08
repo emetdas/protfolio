@@ -56,6 +56,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+p {
+  font-family: "Rubik", sans-serif; }
+
 i.fa-tv {
   color: #7173f3; }
 
@@ -405,7 +408,7 @@ nav {
 .count::before {
   content: attr(data-count);
   font-size: 3rem;
-  background: #ebebeb;
+  background: rgba(216, 216, 216, 0.753);
   border: 0.1rem solid #d8d8d8;
   z-index: -1;
   position: absolute;
@@ -659,7 +662,7 @@ nav {
   background: white;
   position: relative;
   filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.753));
-  -webkit-filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.575));
+  -webkit-filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.753));
   border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
   -moz-border-radius: 0.2rem;

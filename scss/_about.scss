@@ -6,13 +6,13 @@
 }
 .my-profile {
   @include radius-50(10rem, 10rem);
-  background: #5E5C7F;
+  background: $profile;
 }
 .about-img{
     & .my-profile {
         @include radius-50(13rem, 13rem);
         background: $fifth;
-        background: #5E5C7F;
+        background: $profile;
     }
 }
 .social-media {
@@ -59,8 +59,8 @@
 .about-content{
   background: $white;
   position: relative;
-  filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.753));
-  -webkit-filter: drop-shadow(0 0 0.2rem rgba(216, 216, 216, 0.575));
+  filter: drop-shadow(0 0 0.2rem $drop-shadow-bg);
+  -webkit-filter: drop-shadow(0 0 0.2rem $drop-shadow-bg);
   border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
   -moz-border-radius: 0.2rem;
@@ -104,7 +104,7 @@
 }
 .progess-skill{
   width: 30rem;
-  background: #F1F1F1;
+  background: $progress-bg;
   height: 0.7rem;
   position: relative;
   border-radius: 1rem;
