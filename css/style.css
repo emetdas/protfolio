@@ -116,14 +116,15 @@ i.fa-trophy {
     -webkit-transform: translateY(-6rem);
     -moz-transform: translateY(-6rem);
     -ms-transform: translateY(-6rem);
-    -o-transform: translateY(-6rem); }
+    -o-transform: translateY(-6rem);
+    opacity: 0; }
   100% {
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-    opacity: 0; } }
+    opacity: 1; } }
 
 @keyframes project {
   0% {
@@ -149,18 +150,18 @@ i.fa-trophy {
 
 @keyframes scroll {
   0% {
-    transform: translateY(-3rem);
-    -webkit-transform: translateY(-3rem);
-    -moz-transform: translateY(-3rem);
-    -ms-transform: translateY(-3rem);
-    -o-transform: translateY(-3rem);
+    transform: translateY(-2rem);
+    -webkit-transform: translateY(-2rem);
+    -moz-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    -o-transform: translateY(-2rem);
     opacity: 0; }
   50% {
-    transform: translateY(-1rem);
-    -webkit-transform: translateY(-1rem);
-    -moz-transform: translateY(-1rem);
-    -ms-transform: translateY(-1rem);
-    -o-transform: translateY(-1rem);
+    transform: translateY(-0.5rem);
+    -webkit-transform: translateY(-0.5rem);
+    -moz-transform: translateY(-0.5rem);
+    -ms-transform: translateY(-0.5rem);
+    -o-transform: translateY(-0.5rem);
     opacity: 1; }
   100% {
     transform: translateY(1rem);
@@ -398,7 +399,7 @@ nav {
   position: absolute;
   bottom: 3rem;
   color: white;
-  padding: 1rem 0.7rem;
+  padding: 1.3rem 0.7rem;
   background-color: #5753ac;
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
@@ -406,6 +407,7 @@ nav {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem; }
   .scroll-fature i {
+    font-size: 1.6rem;
     animation: scroll 1s linear infinite;
     -webkit-animation: scroll 1s linear infinite; }
 

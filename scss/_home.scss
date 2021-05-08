@@ -13,7 +13,7 @@
     position: absolute;
     bottom: 3rem;
     color: $white;
-    padding: 1rem 0.7rem;
+    padding: 1.3rem 0.7rem;
     background-color: $scroll-bottom;
     border-radius: 3rem;
     -webkit-border-radius: 3rem;
@@ -21,6 +21,7 @@
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
     & i{
+        font-size: 1.6rem;
         animation: scroll 1s linear infinite;
         -webkit-animation: scroll 1s linear infinite;
 }

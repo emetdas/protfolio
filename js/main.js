@@ -154,3 +154,8 @@ progess.forEach((e)=>{
     e.style.width = `${persent}%`;
 });
 // Skill Progressbar-end
+var scrollFeature = document.querySelector('.scroll-fature');
+var FeatureSection = document.querySelector('#feature');
+scrollFeature.addEventListener('click',()=>{
+    FeatureSection.scrollIntoView({behavior: "smooth"});
+})
