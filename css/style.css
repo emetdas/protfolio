@@ -548,7 +548,12 @@ nav {
   height: 25rem;
   overflow-x: hidden;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  transition: transform 1s ease-out;
+  -webkit-transition: transform 1s ease-out;
+  -moz-transition: transform 1s ease-out;
+  -ms-transition: transform 1s ease-out;
+  -o-transition: transform 1s ease-out; }
 
 .slider-items {
   position: absolute;
@@ -557,11 +562,11 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 1s ease-in-out;
-  -webkit-transition: transform 1s ease-in-out;
-  -moz-transition: transform 1s ease-in-out;
-  -ms-transition: transform 1s ease-in-out;
-  -o-transition: transform 1s ease-in-out; }
+  transition: transform 1s ease-out;
+  -webkit-transition: transform 1s ease-out;
+  -moz-transition: transform 1s ease-out;
+  -ms-transition: transform 1s ease-out;
+  -o-transition: transform 1s ease-out; }
   .slider-items img {
     width: 10rem;
     height: 10rem;
