@@ -140,7 +140,7 @@ document.addEventListener('keydown',(e)=>{
 
 sliderControler.addEventListener('click',(e)=>{
     if (e.target.classList.contains('controler-dot')) {
-        const {dot} = e.target.dataset;
+        const { dot } = e.target.dataset;
         goToSlide(dot);
         acivetDot(dot);
     }
