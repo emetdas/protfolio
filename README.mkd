@@ -13,3 +13,6 @@
 font-family: 'Mulish', sans-serif;
 
 
+1. font-one: 'Dosis', sans-serif;
+2. font-two: "Ubuntu", sans-serif;
+3. font-three: 'Rubik', sans-serif;
