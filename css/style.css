@@ -70,6 +70,9 @@ i.fa-chart-line {
 i.fa-trophy {
   color: #f0db4f; }
 
+.gap-2 {
+  gap: 2rem; }
+
 .p-01 {
   padding: 0.5rem !important; }
 
@@ -593,35 +596,49 @@ nav {
   padding: 2rem 0; }
 
 .about-social-component {
-  padding: 2rem;
-  box-shadow: 0 0 0.3rem #d8d8d8; }
+  padding: 2rem; }
 
-.about-img-social .my-profile {
+.my-profile {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -o-border-radius: 50%; }
+  -o-border-radius: 50%;
+  background: #5E5C7F; }
 
-.about-img-social .social-media .fa-linkedin-in {
+.about-img .my-profile {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #7173f3;
+  background: #5E5C7F; }
+
+.social-media .fa-linkedin-in {
   color: #0077b5; }
 
-.about-img-social .social-media .fa-facebook-f {
+.social-media .fa-facebook-f {
   color: #4267B2; }
 
-.about-img-social .social-media .fa-twitter {
+.social-media .fa-twitter {
   color: #1DA1F2; }
 
-.about-img-social .social-media .fa-instagram {
+.social-media .fa-instagram {
   color: #3f729b; }
 
-.about-img-social .social-media .fa-github {
+.social-media .fa-github {
   color: #333; }
 
-.about-img-social .social-media .fa-gitlab {
+.social-media .fa-gitlab {
   color: #FC6D27; }
 
-.about-img-social .social-media .fa-pinterest {
+.social-media .fa-pinterest {
   color: #E60023; }
+
+.about-content {
+  box-shadow: 0 0 0.3rem #d8d8d8; }
