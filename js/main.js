@@ -199,7 +199,18 @@ projectOvser.observe(section_Project_counter);
 // project-counter-animation-end
 
 // scrollToTop-start
-let btn_scroll_top = document.querySelector('.');
+let btn_scroll_top = document.querySelector('.scroll-to-top');
+btn_scroll_top.addEventListener('click',(e)=>{
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+});
+window.addEventListener('scroll',(e)=>{
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btn_scroll_top.classList.remove('active');
+  } else {
+    btn_scroll_top.classList.add('active');
+  }
+});
 // scrollToTop-end
 
 
