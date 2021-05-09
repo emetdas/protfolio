@@ -59,9 +59,6 @@ table {
 p {
   font-family: "Rubik", sans-serif; }
 
-span {
-  font-size: 1.6rem; }
-
 i.fa-tv {
   color: #7173f3; }
 
@@ -814,3 +811,7 @@ nav {
   font-weight: bolder;
   display: block;
   font-family: "Dosis", sans-serif; }
+
+.project-counter-item h5 {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.5rem; }
