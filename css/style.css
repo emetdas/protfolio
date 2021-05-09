@@ -59,6 +59,9 @@ table {
 p {
   font-family: "Rubik", sans-serif; }
 
+span {
+  font-size: 1.6rem; }
+
 i.fa-tv {
   color: #7173f3; }
 
@@ -805,3 +808,9 @@ nav {
 .counter-img {
   width: 5rem;
   height: 5rem; }
+
+.project-count {
+  font-size: 4rem;
+  font-weight: bolder;
+  display: block;
+  font-family: "Dosis", sans-serif; }
