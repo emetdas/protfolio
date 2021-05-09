@@ -11,6 +11,9 @@
     -ms-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
 }
+.project-count-containter{
+    grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
+}
 .project-counter.slide-down{
     opacity: 1;
     transform: translateY(0);

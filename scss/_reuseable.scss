@@ -79,17 +79,22 @@
 
 // scroll-to-top-Button-start
 .scroll-to-top{
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     position: fixed;
     background: $gradient-1;
     right: 2rem;
-    bottom: 4rem;
+    bottom: 3rem;
     text-align: center;
     color: $white;
     font-size: 2rem;
     opacity: 0;
     cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -102,7 +107,7 @@
     -ms-transform: translateY(-20rem);
     -o-transform: translateY(-20rem);
     & i{
-        line-height: 3rem;
+        line-height: 3.5rem;
     }
 }
 .scroll-to-top.active{

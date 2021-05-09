@@ -397,17 +397,22 @@ nav {
   justify-content: space-between; }
 
 .scroll-to-top {
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   position: fixed;
   background: #4776e6;
   right: 2rem;
-  bottom: 4rem;
+  bottom: 3rem;
   text-align: center;
   color: white;
   font-size: 2rem;
   opacity: 0;
   cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -420,7 +425,7 @@ nav {
   -ms-transform: translateY(-20rem);
   -o-transform: translateY(-20rem); }
   .scroll-to-top i {
-    line-height: 3rem; }
+    line-height: 3.5rem; }
 
 .scroll-to-top.active {
   opacity: 1;
@@ -865,6 +870,9 @@ nav {
   -moz-transition: all 1s ease-in;
   -ms-transition: all 1s ease-in;
   -o-transition: all 1s ease-in; }
+
+.project-count-containter {
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr)); }
 
 .project-counter.slide-down {
   opacity: 1;
