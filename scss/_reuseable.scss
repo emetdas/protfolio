@@ -76,3 +76,30 @@
 .justify-content-sb{
     justify-content: space-between;
 }
+
+// scroll-to-top-Button-start
+.scroll-to-top{
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    background: $gradient-1;
+    right: 2rem;
+    bottom: 4rem;
+    text-align: center;
+    color: $white;
+    font-size: 2rem;
+    opacity: 1;
+    cursor: pointer;
+    & i{
+        line-height: 3rem;
+    }
+}
+.scroll-to-top.active{
+    opacity: 0;
+    transform: translateY(-10rem);
+    -webkit-transform: translateY(-10rem);
+    -moz-transform: translateY(-10rem);
+    -ms-transform: translateY(-10rem);
+    -o-transform: translateY(-10rem);
+}
+// scroll-to-top-Button-end

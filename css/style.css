@@ -396,6 +396,29 @@ nav {
 .justify-content-sb {
   justify-content: space-between; }
 
+.scroll-to-top {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  background: #4776e6;
+  right: 2rem;
+  bottom: 4rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  opacity: 1;
+  cursor: pointer; }
+  .scroll-to-top i {
+    line-height: 3rem; }
+
+.scroll-to-top.active {
+  opacity: 0;
+  transform: translateY(-10rem);
+  -webkit-transform: translateY(-10rem);
+  -moz-transform: translateY(-10rem);
+  -ms-transform: translateY(-10rem);
+  -o-transform: translateY(-10rem); }
+
 #home {
   height: 61rem; }
 

@@ -197,3 +197,9 @@ let projectOvser = new IntersectionObserver(project_observ, {
 });
 projectOvser.observe(section_Project_counter);
 // project-counter-animation-end
+
+// scrollToTop-start
+let btn_scroll_top = document.querySelector('.');
+// scrollToTop-end
+
+
