@@ -171,7 +171,15 @@ i.fa-trophy {
     -o-transform: translateY(1rem); } }
 
 header {
+  box-shadow: 0.1rem 0 0.3rem #d8d8d8;
   z-index: 1000; }
+
+nav {
+  height: 6rem; }
+
+.manue li {
+  display: inline-block;
+  padding: 0 1rem; }
 
 .logo {
   font-size: 3.7rem;
@@ -268,9 +276,10 @@ header.sticky {
   -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in; }
 
-.btn-contact {
+.btn-contact a {
   border-radius: 2rem;
-  background: #E60023;
+  color: white;
+  background: #5957e6;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
@@ -309,16 +318,6 @@ header.sticky {
   .mobile-manue.active + .manue {
     opacity: 1;
     visibility: visible; } }
-
-header {
-  box-shadow: 0.1rem 0 0.3rem #d8d8d8; }
-
-nav {
-  height: 6rem; }
-
-.manue li {
-  display: inline-block;
-  padding: 0 1rem; }
 
 .container {
   max-width: 112rem;

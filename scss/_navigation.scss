@@ -1,6 +1,15 @@
 header{
+    box-shadow: 0.1rem 0 0.3rem $greysh;
     z-index: 1000;
 }
+nav{
+    height: $nav-height;
+}
+.manue li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
 // logo-start
 .logo{
     font-size: 3.7rem;
@@ -99,9 +108,10 @@ header.sticky{
     -ms-transition:  all 0.5s ease-in;
     -o-transition:  all 0.5s ease-in;
 }
-.btn-contact{
+.btn-contact a{
     border-radius: 2rem;
-    background: $pintrest;
+    color: $white;
+    background: $third;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
@@ -147,23 +157,6 @@ header.sticky{
         visibility: visible;
     }
 }
-// mobile-manue-end
-header{
-    box-shadow: 0.1rem 0 0.3rem $greysh;
-}
-nav{
-    height: $nav-height;
-}
-.manue li{
-    display: inline-block;
-    padding: 0 1rem;
-}
-
-
-
-
-
-
-
 // mobile-manue-start
+
 // mobile-manue-end
