@@ -5,6 +5,8 @@
 
 4: install live-server
   npm install live-server -g
+5: "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
+
 
 1. font-one: 'Dosis', sans-serif;
 2. font-two: "Ubuntu", sans-serif;
