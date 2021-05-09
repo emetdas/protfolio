@@ -407,17 +407,17 @@ nav {
   color: white;
   font-size: 2rem;
   opacity: 1;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in; }
   .scroll-to-top i {
     line-height: 3rem; }
 
 .scroll-to-top.active {
-  opacity: 0;
-  transform: translateY(-10rem);
-  -webkit-transform: translateY(-10rem);
-  -moz-transform: translateY(-10rem);
-  -ms-transform: translateY(-10rem);
-  -o-transform: translateY(-10rem); }
+  opacity: 0; }
 
 #home {
   height: 61rem; }
