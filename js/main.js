@@ -204,13 +204,17 @@ btn_scroll_top.addEventListener('click',(e)=>{
   document.documentElement.scrollTop = 0;
   document.body.scrollTop = 0;
 });
-window.addEventListener('scroll',()=>{
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btn_scroll_top.classList.remove('active');
-  } else {
-    btn_scroll_top.classList.add('active');
-  }
-});
+
+function Scroll() {
+  window.addEventListener('scroll',()=>{
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn_scroll_top.classList.add('active');
+    } else {
+      btn_scroll_top.classList.remove('active');
+    }
+  });
+}
+Scroll();
 // scrollToTop-end
 
 

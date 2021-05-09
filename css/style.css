@@ -406,18 +406,20 @@ nav {
   text-align: center;
   color: white;
   font-size: 2rem;
-  opacity: 1;
+  opacity: 0;
   cursor: pointer;
   transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in; }
+  -o-transition: all 0.5s ease-in;
+  visibility: hidden; }
   .scroll-to-top i {
     line-height: 3rem; }
 
 .scroll-to-top.active {
-  opacity: 0; }
+  opacity: 1;
+  visibility: visible; }
 
 #home {
   height: 61rem; }
