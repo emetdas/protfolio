@@ -55,6 +55,13 @@ window.addEventListener('scroll', () => {
   });
 });
 // nav Item hilight color-end
+// Scroll-to Bottom-start
+var scrollFeature = document.querySelector('.scroll-fature');
+var FeatureSection = document.querySelector('#feature');
+scrollFeature.addEventListener('click', () => {
+  FeatureSection.scrollIntoView({ behavior: 'smooth' });
+});
+// Scroll-to Bottom-end
 // Project filter-start
 projectFilter.addEventListener('click', (e) => {
   const clicked = e.target.closest('.project-filter-link');
@@ -157,8 +164,9 @@ progess.forEach((e) => {
   e.style.width = `${persent}%`;
 });
 // Skill Progressbar-end
-var scrollFeature = document.querySelector('.scroll-fature');
-var FeatureSection = document.querySelector('#feature');
-scrollFeature.addEventListener('click', () => {
-  FeatureSection.scrollIntoView({ behavior: 'smooth' });
-});
+
+
+
+
+
+
