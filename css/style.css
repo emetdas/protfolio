@@ -174,12 +174,44 @@ header {
   box-shadow: 0.1rem 0 0.3rem #d8d8d8;
   z-index: 1000; }
 
+header.sticky {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 20000;
+  animation: sticky 0.4s ease-in-out backwards;
+  -webkit-animation: sticky 0.4s ease-in-out backwards; }
+
 nav {
   height: 6rem; }
 
 .manue li {
   display: inline-block;
-  padding: 0 1rem; }
+  padding: 0 0.7rem; }
+
+.manue li a {
+  padding: 0.6rem 1.3rem;
+  display: block;
+  font-family: "Rubik", sans-serif; }
+
+.manue .active a {
+  background: #8ea3ff;
+  color: white;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in; }
+
+.btn-contact a {
+  border-radius: 2rem;
+  color: white;
+  background: #8ea3ff;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem; }
 
 .logo {
   font-size: 3.7rem;
@@ -253,37 +285,6 @@ nav {
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg); }
-
-.manue li a {
-  padding: 0.6rem 1rem;
-  display: block; }
-
-header.sticky {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 20000;
-  animation: sticky 0.4s ease-in-out backwards;
-  -webkit-animation: sticky 0.4s ease-in-out backwards; }
-
-.manue .active a {
-  background: #8ea3ff;
-  color: white;
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in; }
-
-.btn-contact a {
-  border-radius: 2rem;
-  color: white;
-  background: #5957e6;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem; }
 
 @media (max-width: 764px) {
   .logo {

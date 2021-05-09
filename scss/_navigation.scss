@@ -2,14 +2,45 @@ header{
     box-shadow: 0.1rem 0 0.3rem $greysh;
     z-index: 1000;
 }
+header.sticky{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: $white;
+    z-index: 20000;
+    animation: sticky 0.4s ease-in-out backwards;
+    -webkit-animation: sticky 0.4s ease-in-out backwards;
+}
 nav{
     height: $nav-height;
 }
 .manue li{
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 0.7rem;
 }
-
+.manue li a{
+    padding: 0.6rem 1.3rem;
+    display: block;
+    font-family: $font-third;
+}
+.manue .active a{
+    background: $primary;
+    color: $white;
+    transition:  all 0.5s ease-in;
+    -webkit-transition:  all 0.5s ease-in;
+    -moz-transition:  all 0.5s ease-in;
+    -ms-transition:  all 0.5s ease-in;
+    -o-transition:  all 0.5s ease-in;
+}
+.btn-contact a{
+    border-radius: 2rem;
+    color: $white;
+    background: $primary;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
 // logo-start
 .logo{
     font-size: 3.7rem;
@@ -32,7 +63,7 @@ nav{
     color: $third;
 }
 // logo-end
-// mobile-manue-start
+// mobile-manue-icon-start
 .mobile-manue{
     width: 3rem;
     height: 0.4rem;
@@ -86,37 +117,8 @@ nav{
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
 }
-.manue li a{
-    padding: 0.6rem 1rem;
-    display: block;
-}
-header.sticky{
-    position: fixed;
-    left: 0;
-    width: 100%;
-    background: $white;
-    z-index: 20000;
-    animation: sticky 0.4s ease-in-out backwards;
-    -webkit-animation: sticky 0.4s ease-in-out backwards;
-}
-.manue .active a{
-    background: $primary;
-    color: $white;
-    transition:  all 0.5s ease-in;
-    -webkit-transition:  all 0.5s ease-in;
-    -moz-transition:  all 0.5s ease-in;
-    -ms-transition:  all 0.5s ease-in;
-    -o-transition:  all 0.5s ease-in;
-}
-.btn-contact a{
-    border-radius: 2rem;
-    color: $white;
-    background: $third;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
-}
+// mobile-manue-icon-end
+// mobile-manue-start
 @media (max-width:764px){
     .logo{
         font-size: 2.5rem;
@@ -157,6 +159,4 @@ header.sticky{
         visibility: visible;
     }
 }
-// mobile-manue-start
-
 // mobile-manue-end
