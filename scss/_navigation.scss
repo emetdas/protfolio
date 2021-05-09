@@ -77,6 +77,10 @@ header{
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
 }
+.manue li a{
+    padding: 0.6rem 1rem;
+    display: block;
+}
 header.sticky{
     position: fixed;
     left: 0;
@@ -89,12 +93,19 @@ header.sticky{
 .manue .active a{
     background: $primary;
     color: $white;
-    padding: 0.6rem 1rem;
-    transition:  all 0.5s ease-in-out;
-    -webkit-transition:  all 0.5s ease-in-out;
-    -moz-transition:  all 0.5s ease-in-out;
-    -ms-transition:  all 0.5s ease-in-out;
-    -o-transition:  all 0.5s ease-in-out;
+    transition:  all 0.5s ease-in;
+    -webkit-transition:  all 0.5s ease-in;
+    -moz-transition:  all 0.5s ease-in;
+    -ms-transition:  all 0.5s ease-in;
+    -o-transition:  all 0.5s ease-in;
+}
+.btn-contact{
+    border-radius: 2rem;
+    background: $pintrest;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 @media (max-width:764px){
     .logo{
