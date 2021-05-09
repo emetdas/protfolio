@@ -801,3 +801,7 @@ nav {
   .skill-item {
     gap: 3rem;
     justify-content: start; } }
+
+.counter-img {
+  width: 5rem;
+  height: 5rem; }
