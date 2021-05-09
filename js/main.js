@@ -166,38 +166,34 @@ progess.forEach((e) => {
 // Skill Progressbar-end
 // project-counter-animation-start
 let section_Project_counter = document.querySelector('.project-counter');
-let project_observ = (entris,ovserver)=>{
+let project_observ = (entris, ovserver) => {
   let [entry] = entris;
-  console.log(entry);
   if (entry.isIntersecting) {
     section_Project_counter.classList.add('slide-down');
+    // Project-Counter-start
+    let project_count = document.querySelectorAll('.project-count');
+    let spreed = 1000;
+    project_count.forEach((counter) => {
+      const updateCount = () => {
+        const target = +counter.dataset.project;
+        const count = +counter.innerText;
+        const inc = target / spreed;
+        if (count < target) {
+          counter.innerText = Math.ceil(count + inc);
+          setTimeout(updateCount, 1);
+        } else {
+          count.innerText = target;
+        }
+      };
+      updateCount();
+    // Project-Counter-end
+    });
+    ovserver.unobserve(entry.target);
   }
-  else{
-    ovserver.unobserve(section_Project_counter);
-  }
-}
-let projectOvser = new IntersectionObserver(project_observ,{
-  root:null,
-  threshold:0.2
+};
+let projectOvser = new IntersectionObserver(project_observ, {
+  root: null,
+  threshold: 0.1,
 });
 projectOvser.observe(section_Project_counter);
 // project-counter-animation-end
-// Project-Counter-start
-let project_count = document.querySelectorAll('.project-count');
-let spreed = 1000;
-
-project_count.forEach((counter) => {
-  const updateCount = () => {
-    const target = +counter.dataset.project;
-    const count = +counter.innerText;
-    const inc = target / spreed;
-    if (count < target) {
-      counter.innerText = Math.ceil(count + inc);
-      setTimeout(updateCount, 1);
-    } else {
-      count.innerText = target;
-    }
-  };
-  updateCount();
-});
-// Project-Counter-end

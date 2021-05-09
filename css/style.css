@@ -802,6 +802,32 @@ nav {
     gap: 3rem;
     justify-content: start; } }
 
+.project-counter {
+  opacity: 0;
+  transform: translateY(5rem);
+  -webkit-transform: translateY(5rem);
+  -moz-transform: translateY(5rem);
+  -ms-transform: translateY(5rem);
+  -o-transform: translateY(5rem);
+  transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in; }
+
+.project-counter.slide-down {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in; }
+
 .counter-img {
   width: 5rem;
   height: 5rem; }
@@ -812,6 +838,8 @@ nav {
   display: block;
   font-family: "Dosis", sans-serif; }
 
-.project-counter-item h5 {
-  font-family: "Dosis", sans-serif;
-  font-size: 2.5rem; }
+.project-counter-item {
+  background: white; }
+  .project-counter-item h5 {
+    font-family: "Dosis", sans-serif;
+    font-size: 2.5rem; }
