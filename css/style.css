@@ -408,18 +408,33 @@ nav {
   font-size: 2rem;
   opacity: 0;
   cursor: pointer;
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  visibility: hidden; }
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  transform: translateY(-20rem);
+  -webkit-transform: translateY(-20rem);
+  -moz-transform: translateY(-20rem);
+  -ms-transform: translateY(-20rem);
+  -o-transform: translateY(-20rem); }
   .scroll-to-top i {
     line-height: 3rem; }
 
 .scroll-to-top.active {
   opacity: 1;
-  visibility: visible; }
+  visibility: visible;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
 
 #home {
   height: 61rem; }

@@ -204,7 +204,6 @@ btn_scroll_top.addEventListener('click',(e)=>{
   document.documentElement.scrollTop = 0;
   document.body.scrollTop = 0;
 });
-
 function Scroll() {
   window.addEventListener('scroll',()=>{
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -215,6 +214,12 @@ function Scroll() {
   });
 }
 Scroll();
+if (window.innerWidth > 764) {
+  btn_scroll_top.style.display = 'bolock';
+}
+else{
+  btn_scroll_top.style.display = 'none';
+}
 // scrollToTop-end
 
 
