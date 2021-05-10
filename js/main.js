@@ -16,7 +16,7 @@ allNavitem.addEventListener('click',(e)=>{
   e.preventDefault();
   var link_target = e.target.closest('li a');
   var href = link_target.getAttribute('href');
-  if (!link_target) {
+  if (!link_target || href == null) {
     return false;
   }
   if (href !== '#') {
