@@ -924,7 +924,9 @@ nav {
     margin-top: 2rem;
     display: flex;
     gap: 0.2rem;
-    align-items: center; }
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600; }
     .one .items i {
       font-size: 2rem;
       width: 3rem;
