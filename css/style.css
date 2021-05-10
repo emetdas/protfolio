@@ -905,3 +905,12 @@ nav {
   .project-counter-item h5 {
     font-family: "Dosis", sans-serif;
     font-size: 2.5rem; }
+
+.contact-item {
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr)); }
+
+.one {
+  background: #4776e6;
+  max-width: 32rem;
+  width: 100%;
+  box-shadow: 0 0 0.3rem #333; }

@@ -1,0 +1,9 @@
+.contact-item{
+    grid-template-columns: repeat(auto-fit,minmax(32rem,1fr));
+}
+.one{
+    background: $gradient-1;
+    max-width: 32rem;
+    width: 100%;
+    @include box-shadow(0,0,0.3rem,$github);
+}
