@@ -2,8 +2,34 @@
     grid-template-columns: repeat(auto-fit,minmax(32rem,1fr));
 }
 .one{
+    padding: 2rem;
+    height: 30rem;
     background: $gradient-1;
     max-width: 32rem;
     width: 100%;
-    @include box-shadow(0,0,0.3rem,$github);
+    @include box-shadow(0,0,1rem,$drop-shadow-bg);
+    color: $white;
+    & .contact-heading{
+        font-family: $font-secondry;
+        color: $white;
+    }
+    & .items{
+        margin-top: 2rem;
+        display: flex;
+        gap: 0.2rem;
+        align-items: center;
+        & i{
+            font-size: 2rem;
+            width: 3rem;
+            height: 3rem;
+            line-height: 3rem;
+        }
+        & a{
+            color: $white;
+        }
+        & span{
+            font-size: 1.7rem;
+            text-align: left;
+        }
+    }
 }

@@ -910,7 +910,28 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr)); }
 
 .one {
+  padding: 2rem;
+  height: 30rem;
   background: #4776e6;
   max-width: 32rem;
   width: 100%;
-  box-shadow: 0 0 0.3rem #333; }
+  box-shadow: 0 0 1rem rgba(216, 216, 216, 0.753);
+  color: white; }
+  .one .contact-heading {
+    font-family: "Dosis", sans-serif;
+    color: white; }
+  .one .items {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center; }
+    .one .items i {
+      font-size: 2rem;
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem; }
+    .one .items a {
+      color: white; }
+    .one .items span {
+      font-size: 1.7rem;
+      text-align: left; }
