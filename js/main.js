@@ -75,7 +75,7 @@ window.addEventListener('scroll', () => {
   sectionAll.forEach((section) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+    if (pageYOffset >= sectionTop - sectionHeight / 2) {
       currunt = section.getAttribute('id');
     }
   });
