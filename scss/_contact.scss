@@ -104,6 +104,8 @@
 // contact-form-end
 // footer start
 .footer{
+    font-weight: 600;
+    font-family: $font-secondry;
     background: $github;
     padding: 2rem 0;
     & span{

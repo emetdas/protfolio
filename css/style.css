@@ -1051,6 +1051,8 @@ nav {
   cursor: pointer; }
 
 .footer {
+  font-weight: 600;
+  font-family: "Dosis", sans-serif;
   background: #333;
   padding: 2rem 0; }
   .footer span {
