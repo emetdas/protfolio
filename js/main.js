@@ -11,8 +11,10 @@ var projectFilter = document.querySelector('.project-filter');
 var projectFilterlink = document.querySelectorAll('.project-filter-link');
 var projectFilterItem = document.querySelectorAll('.project-item');
 // All-Navigation-item-start
-var allNavitem = document.querySelectorAll('.manue li a');
-console.log(allNavitem);
+var allNavitem = document.querySelectorAll('.manue');
+allNavitem.addEventListener('click',()=>{
+  
+});
 // All-Navigation-item-end
 // mobile naviation-start
 navIcon.addEventListener('click', () => {
