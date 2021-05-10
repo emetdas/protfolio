@@ -9,7 +9,8 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -129,23 +130,13 @@ i.fa-trophy {
   0% {
     opacity: 0.8;
     transform-origin: center;
-    transform: translateX(1rem);
-    -webkit-transform: translateX(1rem);
-    -moz-transform: translateX(1rem);
-    -ms-transform: translateX(1rem);
-    -o-transform: translateX(1rem);
     transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in; }
   100% {
-    opacity: 0;
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0); } }
+    opacity: 0; } }
 
 @keyframes scroll {
   0% {
@@ -323,7 +314,7 @@ nav {
   max-width: 112rem;
   margin: 0 auto;
   width: calc(100% - 2rem);
-  padding: 0 1rem; }
+  padding: 0 1rem !important; }
 
 .p-1 {
   padding: 1rem; }
@@ -474,7 +465,33 @@ nav {
   #home {
     height: 56rem; } }
 
+@media (max-width: 480px) {
+  html {
+    font-size: 50%; }
+  .about-main {
+    width: 100%;
+    margin: 0 auto; }
+  .about-content {
+    margin-left: 2rem; }
+  .about-content::before {
+    top: -1rem !important;
+    transform: rotate(90deg) translateX(-50%) !important;
+    left: 50% !important;
+    -webkit-transform: rotate(90deg) translateX(-50%) !important;
+    -moz-transform: rotate(90deg) translateX(-50%) !important;
+    -ms-transform: rotate(90deg) translateX(-50%) !important;
+    -o-transform: rotate(90deg) translateX(-50%) !important; }
+  .one {
+    width: 100% !important; }
+  .project-counter {
+    margin-top: 1rem; }
+  .social-media {
+    flex-wrap: wrap; } }
+
 @media (max-width: 764px) {
+  .about-content {
+    width: 100%;
+    margin: 0 auto; }
   .btn-action-home {
     margin-top: 1rem;
     display: block;
@@ -858,6 +875,7 @@ nav {
     justify-content: start; } }
 
 .project-counter {
+  margin-top: 2rem;
   opacity: 0;
   transform: translateY(5rem);
   -webkit-transform: translateY(5rem);
@@ -904,6 +922,9 @@ nav {
   .project-counter-item h5 {
     font-family: "Dosis", sans-serif;
     font-size: 2.5rem; }
+
+#contact {
+  margin-top: 2rem; }
 
 .contact-item {
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr)); }
@@ -993,3 +1014,10 @@ nav {
   font-weight: 500;
   color: white;
   cursor: pointer; }
+
+.footer {
+  background: #333;
+  padding: 2rem 0; }
+  .footer span {
+    font-size: 1.7rem;
+    color: white; }

@@ -1,4 +1,39 @@
+@media (max-width:$breakpoint-mobile){
+    html{
+        font-size: 50%;
+    }   
+    .about-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-content{
+        margin-left: 2rem;
+    }
+    .about-content::before{
+        top: -1rem !important;
+        transform: rotate(90deg) translateX(-50%) !important;
+        left: 50% !important;
+        -webkit-transform: rotate(90deg) translateX(-50%) !important;
+        -moz-transform: rotate(90deg) translateX(-50%) !important;
+        -ms-transform: rotate(90deg) translateX(-50%) !important;
+        -o-transform: rotate(90deg) translateX(-50%) !important;
+    }
+    .one{
+        width: 100% !important;
+    }
+    .project-counter{
+        margin-top: 1rem;
+    }
+    .social-media{
+        flex-wrap: wrap;
+    }
+}
 @media (max-width:764px){
+    .about-content{
+        width: 100%;
+        margin: 0 auto; 
+
+    }
     .btn-action-home{
         margin-top: 1rem;
         display: block;

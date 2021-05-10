@@ -2,7 +2,7 @@
     max-width: $container;
     margin: $m-auto;
     width: calc(100% - 2rem);
-    padding: 0 1rem;
+    padding: 0 1rem !important;
 }
 .p-1{
     padding: 1rem;

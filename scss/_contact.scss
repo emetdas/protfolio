@@ -1,3 +1,6 @@
+#contact{
+    margin-top: 2rem;
+}
 .contact-item{
     grid-template-columns: repeat(auto-fit,minmax(32rem,1fr));
 }
@@ -100,3 +103,13 @@
     cursor: pointer;
 }
 // contact-form-end
+// footer start
+.footer{
+    background: $github;
+    padding: 2rem 0;
+    & span{
+        font-size: 1.7rem;
+        color: $white;
+    }
+}
+// footer end
