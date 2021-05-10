@@ -35,3 +35,48 @@
         }
     }
 }
+
+// contact-form-start
+.two{
+    font-family: $font-secondry;
+    font-weight: bolder;
+}
+.contact-item-two{
+    background: $greysh;
+    padding: 3rem;
+}
+.input-group{
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    & label{
+        font-size: 1.6rem;
+        font-size: 1.8rem;
+        font-family: $font-secondry;
+        font-weight: 600;
+    }
+    & input{
+        margin-top: 0.4rem;
+        outline: none;
+        height: 3rem;
+        padding: 0 0.5rem;
+        font-size: 1.6rem;
+    }
+}
+.input-text-area{
+    max-width: 30rem;
+    & label{
+        font-size: 1.6rem;
+        font-size: 1.8rem;
+        font-family: $font-secondry;
+        font-weight: 600;
+    }
+    & textarea{
+        outline: none;
+        width: 100%;
+        height: 10rem;
+    }
+}
+// contact-form-end

@@ -937,3 +937,41 @@ nav {
     .one .items span {
       font-size: 1.7rem;
       text-align: left; }
+
+.two {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder; }
+
+.contact-item-two {
+  background: #d8d8d8;
+  padding: 3rem; }
+
+.input-group {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem; }
+  .input-group label {
+    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600; }
+  .input-group input {
+    margin-top: 0.4rem;
+    outline: none;
+    height: 3rem;
+    padding: 0 0.5rem;
+    font-size: 1.6rem; }
+
+.input-text-area {
+  max-width: 30rem; }
+  .input-text-area label {
+    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600; }
+  .input-text-area textarea {
+    outline: none;
+    width: 100%;
+    height: 10rem; }
