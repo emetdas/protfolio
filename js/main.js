@@ -27,21 +27,20 @@ allNavitem.addEventListener('click',(e)=>{
 });
 // All-Navigation-item-end
 // home-action-btn-clicked-to-scroll-start
-let home_action_btn = document.querySelectorAll('.btn-action-home');
-home_action_btn.forEach((e)=>{
-  e.addEventListener('click',(e)=>{
-    e.preventDefault();
-    var action_btn = home_action_btn.getAttribute('href');
-    if (!action_btn || action_btn == null) {
-      return false;
-    }
-    if (action_btn !== '#') {
-      document.querySelector(action_btn).scrollIntoView({
-        behavior: "smooth"
-     });
-    }
-  });
-})
+let home_action_btn = document.querySelector('.action-conaitner');
+home_action_btn.addEventListener('click',(e)=>{
+  e.preventDefault();
+  var action_target = e.target.closest('a');
+  var action_btn = action_target.getAttribute('href');
+  if (!action_target || action_btn == null) {
+    return false;
+  }
+  if (action_btn !== '#') {
+    document.querySelector(action_btn).scrollIntoView({
+      behavior: "smooth"
+   });
+  }
+});
 // home-action-btn-clicked-to-scroll-end
 // mobile naviation-start
 navIcon.addEventListener('click', () => {
