@@ -253,5 +253,6 @@ else{
   btn_scroll_top.style.display = 'none';
 }
 // scrollToTop-end
-
+var year = document.querySelector('.year');
+year.innerText = new Date().getFullYear();
 
