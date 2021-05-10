@@ -24,9 +24,11 @@ allNavitem.addEventListener('click',(e)=>{
       behavior: "smooth"
    });
   }
-  console.log(href);
 });
 // All-Navigation-item-end
+// home-action-btn-clicked-to-scroll-start
+let home_action_btn = document.querySelectorAll('.btn-action-home');
+// home-action-btn-clicked-to-scroll-end
 // mobile naviation-start
 navIcon.addEventListener('click', () => {
   navIcon.classList.toggle('active');
