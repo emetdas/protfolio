@@ -11,9 +11,20 @@ var projectFilter = document.querySelector('.project-filter');
 var projectFilterlink = document.querySelectorAll('.project-filter-link');
 var projectFilterItem = document.querySelectorAll('.project-item');
 // All-Navigation-item-start
-var allNavitem = document.querySelectorAll('.manue');
-allNavitem.addEventListener('click',()=>{
-  
+var allNavitem = document.querySelector('.manue');
+allNavitem.addEventListener('click',(e)=>{
+  e.preventDefault();
+  var link_target = e.target.closest('li a');
+  var href = link_target.getAttribute('href');
+  if (!link_target) {
+    return false;
+  }
+  if (href !== '#') {
+    document.querySelector(href).scrollIntoView({
+      behavior: "smooth"
+   });
+  }
+  console.log(href);
 });
 // All-Navigation-item-end
 // mobile naviation-start
