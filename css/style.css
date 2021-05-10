@@ -943,7 +943,6 @@ nav {
   font-weight: bolder; }
 
 .contact-item-two {
-  background: #d8d8d8;
   padding: 3rem; }
 
 .input-group {
@@ -962,7 +961,8 @@ nav {
     outline: none;
     height: 3rem;
     padding: 0 0.5rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    border: 0.1rem solid rgba(216, 216, 216, 0.753); }
 
 .input-text-area {
   max-width: 30rem; }
@@ -972,6 +972,24 @@ nav {
     font-family: "Dosis", sans-serif;
     font-weight: 600; }
   .input-text-area textarea {
+    margin-top: 1rem;
+    text-align: left;
     outline: none;
     width: 100%;
-    height: 10rem; }
+    height: 8rem;
+    resize: none;
+    padding: .4rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "Dosis", sans-serif;
+    border: 0.1rem solid rgba(216, 216, 216, 0.753); }
+
+.submit {
+  font-size: 1.8rem;
+  background: #8ea3ff;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: white; }
