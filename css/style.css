@@ -991,4 +991,5 @@ nav {
   padding: 0.4rem 1rem;
   margin-top: 1rem;
   font-weight: 500;
-  color: white; }
+  color: white;
+  cursor: pointer; }
