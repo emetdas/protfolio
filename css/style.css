@@ -967,9 +967,8 @@ nav {
 
 .one {
   padding: 2rem;
-  height: 30rem;
+  height: calc(100% - 1rem);
   background: #4776e6;
-  max-width: 32rem;
   width: 100%;
   box-shadow: 0 0 1rem rgba(216, 216, 216, 0.753);
   color: white; }
