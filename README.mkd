@@ -1,3 +1,5 @@
+
+
 1: npm install --node-sass -sev-dev
 2: npm file script  add
   "compile:sass":"node-sass scss/style.scss css/style.css -w" 
