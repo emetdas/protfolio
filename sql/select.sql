@@ -1,6 +1,6 @@
  1:CREATE DATABASE:---
 
- CREATE DATABASE `db_name`;
+ CREATE DATABASE cods;
  
 
  
