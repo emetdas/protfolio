@@ -4,7 +4,7 @@
   "description": "This is my Protfolio website",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"node-sass scss/style.scss css/style.css -w"
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/emetdas/protfolio#readme",
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
     "node-sass": "^5.0.0"
   }
 }
