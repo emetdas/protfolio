@@ -20,5 +20,6 @@ SELECT * FROM `contactForm`;
 
 SELECT id,name,phone,email,message FROM `contactForm`;
 
+5: Check Condition---
 
 
