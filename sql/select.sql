@@ -13,3 +13,6 @@
  ) ENGINE = InnoDB;
  
 3:SELECT TABLE
+
+SELECT `user`, `host`, `password` FROM `mysql`;
+
