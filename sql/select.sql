@@ -14,5 +14,5 @@
  
 3:SELECT TABLE
 
-SELECT `user`, `host`, `password` FROM `mysql`;
+SELECT * FROM `mysql`;
 
