@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass scss/style.scss css/style.css -w",
-    "start": "babel js --out-dir dist"
+    "start": "babel js --out-dir js"
   },
   "repository": {
     "type": "git",
