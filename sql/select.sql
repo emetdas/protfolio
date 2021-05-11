@@ -18,4 +18,7 @@ SELECT * FROM `contactForm`;
 
 4:SELECT SPACIC TABLE column---
 
-SELECT  FROM `contactForm`;
+SELECT id,name,phone,email,message FROM `contactForm`;
+
+
+
