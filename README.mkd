@@ -1,4 +1,5 @@
 ![Cods](images/logo.png)
+~~Cods.com~~
 
 1: npm install --node-sass -sev-dev
 2: npm file script  add
