@@ -7,6 +7,16 @@
   npm install live-server -g
 5: "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
 
+**Babel Setup**
+`
+install
+: npm i -D @babel/core @babel/preset-env @babel/cli
+
+``script inside
+  "start": "babel js --out-dir dist"
+```
+`
+
 
 1. font-one: 'Dosis', sans-serif;
 2. font-two: "Ubuntu", sans-serif;
