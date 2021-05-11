@@ -12,4 +12,4 @@
    `message` TEXT
  ) ENGINE = InnoDB;
  
-
+3:SELECT TABLE
