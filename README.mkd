@@ -85,6 +85,9 @@ npm i -D @babel/core @babel/preset-env @babel/cli
 [Color Best Resourch:--](https://webkul.github.io/coolhue/)
 
 **Backend Coding Start 5-15-2021**
+1. SQL QUERY SETUP
+2. second
+3. third
 
 
 
