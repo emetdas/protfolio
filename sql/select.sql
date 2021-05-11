@@ -16,3 +16,5 @@ CREATE TABLE IF NOT EXISTS `contactForm` (
 
 SELECT * FROM `contactForm`;
 
+4:SELECT SPACIC 
+
