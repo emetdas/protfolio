@@ -4,7 +4,7 @@
  
  2:CREATE TABLE:---
  
- CREATE TABLE IF NOT EXISTS `table_name` (
+ CREATE TABLE IF NOT EXISTS `` (
    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
    `name` VARCHAR(255),
    PRIMARY KEY `pk_id`(`id`)
