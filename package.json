@@ -4,7 +4,8 @@
   "description": "This is my Protfolio website",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+    "compile:sass": "node-sass scss/style.scss css/style.css -w",
+    "start": "babel js --out-dir dist"
   },
   "repository": {
     "type": "git",
