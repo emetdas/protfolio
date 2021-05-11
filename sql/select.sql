@@ -18,3 +18,4 @@ SELECT * FROM `contactForm`;
 
 4:SELECT SPACIC TABLE column---
 
+SELECT * FROM `contactForm`;
