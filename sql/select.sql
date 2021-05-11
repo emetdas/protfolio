@@ -14,5 +14,5 @@
  
 3:SELECT TABLE
 
-SELECT * FROM `mysql`;
+SELECT * FROM `contactForm`;
 
