@@ -6,7 +6,23 @@
 4: install live-server
   npm install live-server -g
 5: "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
-
+**Sass Compiler**
+```Node-sass
+npm install --node-sass -sev-dev
+```
+```script add packeg.js
+"compile:sass":"node-sass scss/style.scss css/style.css -w",
+"compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
+```
+```run sass compiler
+npm run compile:sass
+```
+```Install Live Server
+npm install live-server -g
+```
+```run live Server
+liver-server
+```
 **Babel Setup**
 
 ```install
