@@ -1,32 +1,38 @@
 ![Cods](images/logo.png)
 
 1: npm install --node-sass -sev-dev
-2: npm file script  add
-  "compile:sass":"node-sass scss/style.scss css/style.css -w" 
+2: npm file script add
+"compile:sass":"node-sass scss/style.scss css/style.css -w"
 3: npm run compile:sass
 
 4: install live-server
-  npm install live-server -g
+npm install live-server -g
 5: "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
 
-  **Sass Compiler**
+**Sass Compiler**
+
 ```Node-sass
 npm install --node-sass -sev-dev
 ```
+
 ```script add packeg.js
 "compile:sass":"node-sass scss/style.scss css/style.css -w",
 "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
 ```
+
 ```run sass compiler
 npm run compile:sass
 ```
+
 ```Install Live Server
 npm install live-server -g
 ```
+
 ```run live Server
 liver-server
 ```
-  **Babel Setup**
+
+**Babel Setup**
 
 ```install
 npm i -D @babel/core @babel/preset-env @babel/cli
@@ -35,12 +41,15 @@ npm i -D @babel/core @babel/preset-env @babel/cli
 ```script inside
 "start": "babel js --out-dir dist"
 ```
-  **Uses Font**
+
+**Uses Font**
+
 1. font-one: 'Dosis', sans-serif;
 2. font-two: "Ubuntu", sans-serif;
 3. font-three: 'Rubik', sans-serif;
 4. font-four: 'Mulish', sans-serif;
-  **Color**
+   **Color**
+
 - $forth: #7173f3;
 - $fifth: #2da2e1;
 - $black: rgb(9, 2, 34);
@@ -65,8 +74,16 @@ npm i -D @babel/core @babel/preset-env @babel/cli
 - $db:#6C78AF;
 - $profile:#5E5C7F;
 - $progress-bg:#F1F1F1;
-`
+  `
 
 [impression:--](https://jthemes.net/themes/wp/bolby/)
 
 [Color Best Resourch:--](https://webkul.github.io/coolhue/)
+
+['scale', '.01'],
+['translateX', '20px'],
+['translateY', '20px'],
+['translateZ', '20px'],
+['rotateX', '90deg'],
+['rotateY', '90deg'],
+['rotateZ', '180deg'],
