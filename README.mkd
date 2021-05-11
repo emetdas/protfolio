@@ -80,4 +80,6 @@ npm i -D @babel/core @babel/preset-env @babel/cli
 
 [portfolio-filter-in-javascript](https://www.youtube.com/watch?v=xKkzQPduH3g&ab_channel=codexdude)
 
+[portfolio-filter-in-javascript-2](https://www.youtube.com/watch?v=_RQAoff0jx8&ab_channel=ParadoxWay)
+
 [Color Best Resourch:--](https://webkul.github.io/coolhue/)
