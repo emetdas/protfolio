@@ -12,7 +12,7 @@
 install
 : npm i -D @babel/core @babel/preset-env @babel/cli
 
-``script inside
+```script inside
   "start": "babel js --out-dir dist"
 ```
 `
