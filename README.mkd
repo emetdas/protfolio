@@ -6,6 +6,7 @@
 4: install live-server
   npm install live-server -g
 5: "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
+
 **Sass Compiler**
 ```Node-sass
 npm install --node-sass -sev-dev
