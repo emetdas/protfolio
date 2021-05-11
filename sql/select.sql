@@ -22,6 +22,6 @@ SELECT id,name,phone,email,message FROM `contactForm`;
 
 5: Check Condition---
 
-SELECT `name`, `param_list`, `comment` FROM `mysql` WHERE `db`;
+SELECT id FROM `contactForm` WHERE `db`;
 
 
