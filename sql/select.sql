@@ -22,6 +22,6 @@ SELECT id,name,phone,email,message FROM `contactForm`;
 
 5: Check Condition---
 
-SELECT id FROM `contactForm` WHERE `db`;
+SELECT * FROM `contactForm` WHERE `email` = `${email}`;
 
 
