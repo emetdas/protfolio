@@ -741,12 +741,7 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  transition: width 0.5s ease-in;
-  cursor: pointer;
-  -webkit-transition: width 0.5s ease-in;
-  -moz-transition: width 0.5s ease-in;
-  -ms-transition: width 0.5s ease-in;
-  -o-transition: width 0.5s ease-in; }
+  cursor: pointer; }
   .controler-dot.active {
     width: 1.8rem;
     background: #7173f3;
