@@ -135,11 +135,11 @@ i.fa-trophy {
     -moz-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
-    transform: scale(0.01) translateX(20px) translateY(20px) translateZ(20px);
-    -webkit-transform: scale(0.01) translateX(20px) translateY(20px) translateZ(20px);
-    -moz-transform: scale(0.01) translateX(20px) translateY(20px) translateZ(20px);
-    -ms-transform: scale(0.01) translateX(20px) translateY(20px) translateZ(20px);
-    -o-transform: scale(0.01) translateX(20px) translateY(20px) translateZ(20px); }
+    transform: scale(0.5) translateX(20px) translateY(20px) translateZ(20px);
+    -webkit-transform: scale(0.5) translateX(20px) translateY(20px) translateZ(20px);
+    -moz-transform: scale(0.5) translateX(20px) translateY(20px) translateZ(20px);
+    -ms-transform: scale(0.5) translateX(20px) translateY(20px) translateZ(20px);
+    -o-transform: scale(0.5) translateX(20px) translateY(20px) translateZ(20px); }
   100% {
     opacity: 0;
     transform: scale(1) translateX(0px) translateY(0px) translateZ(0px);

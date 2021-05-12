@@ -25,11 +25,11 @@
     -moz-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
-    transform: scale(.01) translateX(20px) translateY(20px) translateZ(20px);
-    -webkit-transform: scale(.01) translateX(20px) translateY(20px) translateZ(20px);
-    -moz-transform: scale(.01) translateX(20px) translateY(20px) translateZ(20px);
-    -ms-transform: scale(.01) translateX(20px) translateY(20px) translateZ(20px);
-    -o-transform: scale(.01) translateX(20px) translateY(20px) translateZ(20px);
+    transform: scale(.5) translateX(20px) translateY(20px) translateZ(20px);
+    -webkit-transform: scale(.5) translateX(20px) translateY(20px) translateZ(20px);
+    -moz-transform: scale(.5) translateX(20px) translateY(20px) translateZ(20px);
+    -ms-transform: scale(.5) translateX(20px) translateY(20px) translateZ(20px);
+    -o-transform: scale(.5) translateX(20px) translateY(20px) translateZ(20px);
 }
   100% {
     opacity: 0;
