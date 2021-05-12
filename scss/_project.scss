@@ -24,7 +24,7 @@
   -moz-transform: scale(0) translate(-50%, -50%);
   -ms-transform: scale(0) translate(-50%, -50%);
   -o-transform: scale(0) translate(-50%, -50%);
-  transform-origin: center;
+  transform-origin: center center;
 }
 .project-item {
   overflow: hidden;
