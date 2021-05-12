@@ -743,7 +743,7 @@ nav {
   -o-border-radius: 50%;
   cursor: pointer; }
   .controler-dot.active {
-    width: 1.8rem;
+    width: 2rem;
     background: #7173f3;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;

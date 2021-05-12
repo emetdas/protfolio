@@ -84,13 +84,8 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   cursor: pointer;
-  // transition: width 0.5s ease-in;
-  // -webkit-transition: width 0.5s ease-in;
-  // -moz-transition: width 0.5s ease-in;
-  // -ms-transition: width 0.5s ease-in;
-  // -o-transition: width 0.5s ease-in;
   &.active{
-    width: 1.8rem;
+    width: 2rem;
     background: $forth;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
