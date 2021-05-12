@@ -13,10 +13,6 @@
   }
 }
 .project-overlay {
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  right: 50%;
   opacity: 0;
   visibility: hidden;
   transform: scale(0) translate(-50%, -50%);
