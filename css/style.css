@@ -557,7 +557,7 @@ nav {
 .service-item {
   background: white;
   font-family: "Dosis", sans-serif;
-  box-shadow: 0 0 0.7rem 0.1rem #F1F1F1; }
+  box-shadow: 0 0 0.7rem 0.1rem #f1f1f1; }
   .service-item img {
     width: 80%;
     height: 80%; }
@@ -770,7 +770,7 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #5E5C7F; }
+  background: #5e5c7f; }
 
 .about-img .my-profile {
   width: 13rem;
@@ -781,7 +781,7 @@ nav {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   background: #7173f3;
-  background: #5E5C7F; }
+  background: #5e5c7f; }
 
 .social-media {
   margin-top: 2rem;
@@ -802,17 +802,17 @@ nav {
   .social-media .fa-linkedin-in {
     color: #0077b5; }
   .social-media .fa-facebook-f {
-    color: #4267B2; }
+    color: #4267b2; }
   .social-media .fa-twitter {
-    color: #1DA1F2; }
+    color: #1da1f2; }
   .social-media .fa-instagram {
     color: #3f729b; }
   .social-media .fa-github {
     color: #333; }
   .social-media .fa-gitlab {
-    color: #FC6D27; }
+    color: #fc6d27; }
   .social-media .fa-pinterest {
-    color: #E60023; }
+    color: #e60023; }
   .social-media .fa-fonticons-fi {
     color: #27ca73; }
 
@@ -853,7 +853,7 @@ nav {
   color: #2965f1; }
 
 .skill .fa-database {
-  color: #6C78AF; }
+  color: #6c78af; }
 
 .skill-item {
   align-items: center;
@@ -863,7 +863,7 @@ nav {
 
 .progess-skill {
   width: 30rem;
-  background: #F1F1F1;
+  background: #f1f1f1;
   height: 0.7rem;
   position: relative;
   border-radius: 1rem;
@@ -905,7 +905,7 @@ nav {
   background: #8993be; }
 
 .database {
-  background: #6C78AF; }
+  background: #6c78af; }
 
 @media (max-width: 768px) {
   .about-main {
