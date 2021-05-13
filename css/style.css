@@ -523,8 +523,8 @@ nav {
   position: relative; }
 
 .icon-font {
-  width: 5rem;
-  height: 5rem; }
+  width: 5.5rem;
+  height: 5.5rem; }
 
 .feature-item * {
   padding: 0.5rem 0; }
@@ -604,7 +604,8 @@ nav {
   .project-item:hover .project-overlay * {
     font-size: 2.5rem;
     margin-right: 1rem;
-    cursor: pointer; }
+    cursor: pointer;
+    color: white; }
 
 .project-item {
   position: relative; }
