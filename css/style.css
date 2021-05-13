@@ -544,6 +544,9 @@ nav {
   font-family: "Dosis", sans-serif;
   color: #8ea3ff; }
 
+.icon-font {
+  font-size: 3rem; }
+
 .feature-item * {
   padding: 0.5rem 0; }
 
