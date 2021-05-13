@@ -12,20 +12,6 @@
 .count{
     position: relative;
 }
-// .count::before{
-//     content: attr(data-count);
-//     font-size: 3rem;
-//     background: $drop-shadow-bg;
-//     border: 0.1rem solid $greysh;
-//     z-index: -1;
-//     @include after-before(2rem,-5.5rem);
-//     @include radius-50(5rem,5rem);
-//     text-align: center;
-//     line-height: 5rem;
-//     font-weight: bolder;
-//     font-family: $font-secondry;
-//     color: $primary;
-// }
 .icon-font{
     width: 5rem;
     height: 5rem;
