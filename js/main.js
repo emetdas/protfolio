@@ -225,6 +225,11 @@ progess.forEach(function (e) {
   var persent = e.dataset.progress;
   e.style.width = "".concat(persent, "%");
 }); // Skill Progressbar-end
+var year = document.querySelector('.year');
+year.innerText = new Date().getFullYear();
+var form = document.querySelector('form').addEventListener('submit',(e)=>{
+  e.preventDefault();
+});
 // project-counter-animation-start
 
 var section_Project_counter = document.querySelector('.project-counter');
@@ -290,5 +295,3 @@ if (window.innerWidth > 764) {
 } // scrollToTop-end
 
 
-var year = document.querySelector('.year');
-year.innerText = new Date().getFullYear();
