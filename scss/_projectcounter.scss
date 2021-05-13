@@ -39,6 +39,7 @@
     font-family: $font-secondry;
 }
 .project-counter-item{
+    text-align: center;
     width: 100%;
     padding: 1rem;
     background: $white;
@@ -46,5 +47,10 @@
     & h5{
         font-family: $font-secondry;
         font-size: 2.5rem;
+    }
+    & span{
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: $font-secondry;
     }
 }

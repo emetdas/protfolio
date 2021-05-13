@@ -941,6 +941,7 @@ nav {
   font-family: "Dosis", sans-serif; }
 
 .project-counter-item {
+  text-align: center;
   width: 100%;
   padding: 1rem;
   background: white;
@@ -948,6 +949,10 @@ nav {
   .project-counter-item h5 {
     font-family: "Dosis", sans-serif;
     font-size: 2.5rem; }
+  .project-counter-item span {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif; }
 
 #contact {
   margin-top: 2rem; }
