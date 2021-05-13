@@ -522,28 +522,6 @@ nav {
 .count {
   position: relative; }
 
-.count::before {
-  content: attr(data-count);
-  font-size: 3rem;
-  background: rgba(216, 216, 216, 0.753);
-  border: 0.1rem solid #d8d8d8;
-  z-index: -1;
-  position: absolute;
-  top: -5.5rem;
-  left: 2rem;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  text-align: center;
-  line-height: 5rem;
-  font-weight: bolder;
-  font-family: "Dosis", sans-serif;
-  color: #8ea3ff; }
-
 .icon-font {
   width: 5rem;
   height: 5rem; }
