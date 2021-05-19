@@ -11,7 +11,7 @@
 .about-img{
     & .my-profile {
         @include radius-50(13rem, 13rem);
-        background: $main-color;
+        background: $profile;
     }
 }
 .social-media {

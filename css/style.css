@@ -328,7 +328,7 @@ nav {
   font-family: "Dosis", sans-serif; }
 
 .heading {
-  color: #6e57e0; }
+  color: #8d94fc; }
 
 .btn {
   display: inline-block;
@@ -388,7 +388,7 @@ nav {
   width: 3.5rem;
   height: 3.5rem;
   position: fixed;
-  background: #4776e6;
+  background: #6e57e0;
   right: 2rem;
   bottom: 3rem;
   text-align: center;
@@ -436,6 +436,7 @@ nav {
   text-rendering: optimizeLegibility;
   font-family: "Dosis", sans-serif;
   font-size: 4rem;
+  margin-top: 3rem;
   margin-bottom: 3rem; }
 
 .scroll-fature {
@@ -751,7 +752,7 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #6e57e0; }
+  background: #5e5c7f; }
 
 .social-media {
   margin-top: 2rem;

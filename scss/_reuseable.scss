@@ -18,7 +18,7 @@
   font-family: $font-secondry;
 }
 .heading {
-  color: $main-color;
+  color: $secondry;
 }
 .btn {
   display: inline-block;
@@ -76,13 +76,12 @@
 .justify-content-sb {
   justify-content: space-between;
 }
-
 // scroll-to-top-Button-start
 .scroll-to-top {
   width: 3.5rem;
   height: 3.5rem;
   position: fixed;
-  background: $gradient-1;
+  background: $main-color;
   right: 2rem;
   bottom: 3rem;
   text-align: center;
