@@ -528,7 +528,7 @@ nav {
 .service-item {
   background: white;
   font-family: "Dosis", sans-serif;
-  box-shadow: 0 0 0.2rem 0.4rem #f1f1f1; }
+  box-shadow: 0 0 0.1rem 0.2rem rgba(9, 2, 34, 0.05); }
   .service-item img {
     width: 80%;
     height: 80%; }
@@ -955,27 +955,20 @@ nav {
   width: 100%; }
   .one img {
     height: 450px; }
+    @media (max-width: 674px) {
+      .one img {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%; } }
   .one .contact-heading {
     font-family: "Dosis", sans-serif; }
-  .one .items {
-    margin-top: 2rem;
-    display: flex;
-    gap: 0.2rem;
-    align-items: center;
-    font-family: "Dosis", sans-serif;
-    font-weight: 600; }
-    .one .items i {
-      font-size: 2rem;
-      width: 3rem;
-      height: 3rem;
-      line-height: 3rem; }
-    .one .items span {
-      font-size: 1.7rem;
-      text-align: left; }
 
 .two {
   font-family: "Dosis", sans-serif;
   font-weight: bolder; }
+  @media (max-width: 674px) {
+    .two {
+      margin: 0 auto; } }
 
 .contact-item-two {
   padding: 3rem; }

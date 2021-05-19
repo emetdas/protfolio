@@ -10,27 +10,14 @@
   width: 100%;
   & img {
     height: 450px;
+    @media (max-width:674px){
+      width: 100%;
+      margin: 0 auto;
+      height: 100%;
+    }
   }
   & .contact-heading {
     font-family: $font-secondry;
-  }
-  & .items {
-    margin-top: 2rem;
-    display: flex;
-    gap: 0.2rem;
-    align-items: center;
-    font-family: $font-secondry;
-    font-weight: 600;
-    & i {
-      font-size: 2rem;
-      width: 3rem;
-      height: 3rem;
-      line-height: 3rem;
-    }
-    & span {
-      font-size: 1.7rem;
-      text-align: left;
-    }
   }
 }
 
@@ -38,6 +25,9 @@
 .two {
   font-family: $font-secondry;
   font-weight: bolder;
+  @media (max-width:674px){
+    margin: 0 auto;
+  }
 }
 .contact-item-two {
   padding: 3rem;
