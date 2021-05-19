@@ -50,17 +50,17 @@ nav {
   -moz-text-stroke-width: 0.1rem;
   -ms-text-stroke-width: 0.1rem;
   -o-text-stroke-width: 0.1rem;
-  -webkit-text-stroke-color: $stock-bg;
-  -moz-text-stroke-color: $stock-bg;
-  -ms-text-stroke-color: $stock-bg;
-  -o-text-stroke-color: $stock-bg;
+  -webkit-text-stroke-color: $main-color;
+  -moz-text-stroke-color: $main-color;
+  -ms-text-stroke-color: $main-color;
+  -o-text-stroke-color: $main-color;
   color: transparent;
   line-height: 4rem;
   font-weight: bolder;
   text-transform: capitalize;
 }
 .logo-circle {
-  color: $third;
+  color: $main-color;
 }
 // logo-end
 // mobile-manue-icon-start
