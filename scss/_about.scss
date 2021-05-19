@@ -6,13 +6,12 @@
 }
 .my-profile {
   @include radius-50(10rem, 10rem);
-  background: $profile;
+  background: $main-color;
 }
 .about-img{
     & .my-profile {
         @include radius-50(13rem, 13rem);
-        background: $forth;
-        background: $profile;
+        background: $main-color;
     }
 }
 .social-media {
