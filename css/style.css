@@ -967,7 +967,7 @@ nav {
   font-family: "Dosis", sans-serif;
   font-weight: bolder; }
   @media (max-width: 674px) {
-    .two {
+    .two form {
       margin: 0 auto; } }
 
 .contact-item-two {

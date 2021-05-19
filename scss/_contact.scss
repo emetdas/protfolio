@@ -25,8 +25,10 @@
 .two {
   font-family: $font-secondry;
   font-weight: bolder;
-  @media (max-width:674px){
-    margin: 0 auto;
+  & form{
+    @media (max-width:674px){
+      margin: 0 auto;
+    }
   }
 }
 .contact-item-two {
