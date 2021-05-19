@@ -627,7 +627,7 @@ nav {
   -ms-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in; }
   .project-filter li.active {
-    background: #8ea3ff;
+    background: rgba(110, 87, 224, 0.856);
     color: white; }
 
 .slider-container {
