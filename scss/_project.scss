@@ -100,7 +100,6 @@
     -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     &.active {
-      // background: $primary;
       background: $main-color-op;
       color: $white;
     }
