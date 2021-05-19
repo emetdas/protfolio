@@ -528,7 +528,7 @@ nav {
 .service-item {
   background: white;
   font-family: "Dosis", sans-serif;
-  box-shadow: 0 0 0.7rem 0.1rem #f1f1f1; }
+  box-shadow: 0 0 0.2rem 0.4rem #f1f1f1; }
   .service-item img {
     width: 80%;
     height: 80%; }
