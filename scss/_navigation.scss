@@ -1,6 +1,6 @@
 header {
   -webkit-box-shadow: 0.1rem 0 0.3rem $greysh;
-          box-shadow: 0.1rem 0 0.3rem $greysh;
+  box-shadow: 0.1rem 0 0.3rem $greysh;
   z-index: 1000;
 }
 header.sticky {
@@ -143,15 +143,15 @@ nav {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
@@ -163,8 +163,8 @@ nav {
   .manue li {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 1rem 0;
   }
   .mobile-manue.active + .manue {
