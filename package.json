@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass scss/style.scss css/style.css -w",
-    "start": "babel js --out-dir js"
+    "start": "babel js --out-dir js",
+    "compress:css":"node-sass css/style.css css/compile.css --output-style compressed"
   },
   "repository": {
     "type": "git",
