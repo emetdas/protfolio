@@ -1,6 +1,6 @@
-https://www.bluehost.com/help/article/htaccess-tutorial
+1:https://www.bluehost.com/help/article/htaccess-tutorial
 
-https://github.com/phanan/htaccess
+2:https://github.com/phanan/htaccess
 
 
 
